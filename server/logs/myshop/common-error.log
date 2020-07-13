@@ -1,0 +1,37 @@
+2020-07-13 15:24:50,225 ERROR 5888 nodejs.ServerNoResponseError: server 127.0.0.1:55229 no response in 40000ms, maybe the socket is end on the other side. (address: 127.0.0.1:55229)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ServerNoResponseError"
+pid: 5888
+hostname: DESKTOP-6BKTIMC
+
+2020-07-13 15:38:28,573 ERROR 9560 nodejs.ECONNABORTEDError: write ECONNABORTED
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:713:5)
+    at Socket._write (net.js:725:8)
+    at doWrite (_stream_writable.js:410:12)
+    at writeOrBuffer (_stream_writable.js:394:5)
+    at Socket.Writable.write (_stream_writable.js:294:11)
+    at Connection._write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\cluster-client\lib\connection.js:131:25)
+    at Connection.send (C:\Users\wo\Desktop\project\dangdang\server\node_modules\cluster-client\lib\connection.js:60:10)
+    at Leader._handleRequest (C:\Users\wo\Desktop\project\dangdang\server\node_modules\cluster-client\lib\leader.js:352:14)
+errno: "ECONNABORTED"
+code: "ECONNABORTED"
+syscall: "write"
+name: "ECONNABORTEDError"
+pid: 9560
+hostname: DESKTOP-6BKTIMC
+
+2020-07-13 20:18:45,964 ERROR 6844 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6844
+hostname: DESKTOP-6BKTIMC
+
