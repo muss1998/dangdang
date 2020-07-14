@@ -15,6 +15,17 @@ Vue.use(VueRouter)
     name: 'About',
     component: () => import('../views/About.vue')
   }
+  ,
+  {
+    path: '/my',
+    name: 'My',
+    component: () => import('../views/my/My.vue')
+  },
+  {
+    path: '/car',
+    name: 'Car',
+    component: () => import('../views/car/Car.vue')
+  }
 ]
 
 const router = new VueRouter({

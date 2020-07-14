@@ -156,7 +156,7 @@
       "app": true,
       "agent": false,
       "client": {
-        "host": "localhost",
+        "host": "192.168.3.234",
         "port": "3306",
         "user": "root",
         "password": "<String len: 4>",
