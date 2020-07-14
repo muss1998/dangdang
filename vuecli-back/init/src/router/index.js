@@ -12,6 +12,19 @@ const routes = [{
     path: '/about',
     name: 'About',
     component: () => import('../views/About.vue'),
+    beforeEnter(to, from, next) {
+      var flag = localStorage.getItem("islogin")
+      if (to.path === "/about") {
+        if(flag) {
+          next()
+        }else {
+          alert("请登录");
+          next('/login'); // 禁止跳转
+        }
+      } else {
+        next()
+      }
+    }
   }
 ]
 
