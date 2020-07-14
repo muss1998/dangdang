@@ -95,8 +95,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/car",
@@ -113,6 +112,30 @@
     "paramNames": [],
     "path": "/my",
     "regexp": "/^\\/my(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/mychgusern",
+    "regexp": "/^\\/mychgusern(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/mychgkey",
+    "regexp": "/^\\/mychgkey(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
