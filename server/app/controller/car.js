@@ -7,7 +7,7 @@ class CarController extends Controller {
         const {
             ctx
         } = this;
-        ctx.body = await ctx.service.car.getCars(ctx.request.query);
+        ctx.body = await ctx.service.car.getCars(ctx.request.body);
     }
 }
 

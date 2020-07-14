@@ -9,11 +9,13 @@ type AutoInstanceType<T, U = T extends CanExportFunc ? T : T extends AnyFunc ? R
 import ExportAdministrator = require('../../../app/service/administrator');
 import ExportCar = require('../../../app/service/car');
 import ExportMy = require('../../../app/service/my');
+import ExportMychgkey = require('../../../app/service/mychgkey');
 
 declare module 'egg' {
   interface IService {
     administrator: AutoInstanceType<typeof ExportAdministrator>;
     car: AutoInstanceType<typeof ExportCar>;
     my: AutoInstanceType<typeof ExportMy>;
+    mychgkey: AutoInstanceType<typeof ExportMychgkey>;
   }
 }

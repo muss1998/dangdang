@@ -7,7 +7,7 @@ class MyController extends Controller {
         const {
             ctx
         } = this;
-        console.log(this.ctx.request.body,'body');
+        // console.log(ctx.request.body,'body');
         this.ctx.body = await this.ctx.service.my.getMys(ctx.request.body);
 
     }
