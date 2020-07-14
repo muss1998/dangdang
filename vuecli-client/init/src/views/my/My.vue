@@ -45,7 +45,7 @@ export default {
     return {
       arr: {},
       id: {
-        uid: 9
+        username:"qqqqqq"
       }
     };
   },
@@ -106,10 +106,10 @@ export default {
   mounted() {
     var url = "http://localhost:7001/my";
     axios
-      .post(url, this.id, { withCredentials: true }) //传username，需缓存数据，待定
+      .post(url,{}, { withCredentials: true }) //传username，需缓存数据，待定
       .then(res => {
         this.arr = res.data;
-        console.log(this.arr);
+        // console.log(this.arr);
       });
   }
 };
