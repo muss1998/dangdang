@@ -9,7 +9,6 @@ class MyController extends Controller {
         } = this;
         console.log(this.ctx.request.body,'body');
         this.ctx.body = await this.ctx.service.my.getMys(ctx.request.body);
-
     }
 }
 
