@@ -1,58 +1,75 @@
 <template>
   <div class="nav">
-    <el-tabs :tab-position="tabPosition" style="height: 200px;">
-      <el-tab-pane label="用户管理">
-        <el-table :data="tableData" style="width: 100%">
-          <el-table-column type="expand">
-            <template slot-scope="props">
-              <el-form label-position="left" inline class="demo-table-expand">
-                <el-form-item label="商品名称">
-                  <span>{{ props.row.goodsname }}</span>
-                </el-form-item>
-                <el-form-item label="所属店铺">
-                  <span>{{ props.row.author }}</span>
-                </el-form-item>
-                <el-form-item label="商品 ID">
-                  <span>{{ props.row.price }}</span>
-                </el-form-item>
-                <el-form-item label="店铺 ID">
-                  <span>{{ props.row.keywords }}</span>
-                </el-form-item>
-                <el-form-item label="商品分类">
-                  <span>{{ props.row.scnumber }}</span>
-                </el-form-item>
-                <el-form-item label="店铺地址">
-                  <span>{{ props.row.pjnumber }}</span>
-                </el-form-item>
-                <el-form-item label="商品描述">
-                  <span>{{ props.row.gid }}</span>
-                </el-form-item>
-              </el-form>
-            </template>
-          </el-table-column>
-          <el-table-column label="商品 ID" prop="gid"></el-table-column>
-          <el-table-column label="商品名称" prop="goodsname"></el-table-column>
-          <el-table-column label="描述" prop="author"></el-table-column>
-        </el-table>
+    <el-tabs :tab-position="tabPosition" style="min-height: 700px;">
+      <el-tab-pane label="查看书籍">
+        <div class="table">
+          <el-table :data="tableData" style="width: 100%" :row-class-name="tableRowClassName">
+            <el-table-column type="expand">
+              <template slot-scope="props">
+                <el-form label-position="left" inline class="demo-table-expand">
+                  <el-form-item label="商品ID">
+                    <span>{{ props.row.gid }}</span>
+                  </el-form-item>
+                  <el-form-item label="书名">
+                    <span>{{ props.row.goodsname }}</span>
+                  </el-form-item>
+                  <el-form-item label="评价量">
+                    <span>{{ props.row.pjnumber }}</span>
+                  </el-form-item>
+
+                  <el-form-item label="作者">
+                    <span>{{ props.row.author }}</span>
+                  </el-form-item>
+
+                  <el-form-item label="收藏量">
+                    <span>{{ props.row.scnumber }}</span>
+                  </el-form-item>
+                  <el-form-item label="价格">
+                    <span>{{ props.row.price }}</span>
+                  </el-form-item>
+                  <el-form-item label="描述">
+                    <span>{{ props.row.keywords }}</span>
+                  </el-form-item>
+                </el-form>
+              </template>
+            </el-table-column>
+            <el-table-column label="ID" prop="gid"></el-table-column>
+            <el-table-column label="书名" prop="goodsname"></el-table-column>
+            <el-table-column label="作者" prop="author"></el-table-column>
+          </el-table>
+          <el-pagination
+            background
+            layout="prev, pager, next"
+            :total="this.countID"
+            :page-size="5"
+            @current-change="handleCurrentChange"
+          style="margin-top:30px"></el-pagination>
+        </div>
       </el-tab-pane>
-      <el-tab-pane label="配置管理">配置管理</el-tab-pane>
-      <el-tab-pane label="角色管理">角色管理</el-tab-pane>
-      <el-tab-pane label="定时任务补偿">定时任务补偿</el-tab-pane>
+      <el-tab-pane label="添加书籍">
+        <Add></Add>
+      </el-tab-pane>
+      <el-tab-pane label="操作书籍">
+        <Edit></Edit>
+      </el-tab-pane>
     </el-tabs>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
+import Add from "@/views/Add.vue";
+import Edit from "@/views/Edit.vue";
 import axios from "axios";
 export default {
   name: "Nav",
   components: {
-    // HelloWorld
+    Add,
+    Edit
   },
   data() {
     return {
+      countID:0,
       tabPosition: "left",
       tableData: [
         {
@@ -79,24 +96,31 @@ export default {
         return "success-row";
       }
       return "";
+    },
+    handleCurrentChange(val) {
+      console.log(`当前页: ${val}`);
+      var url = `http://localhost:7001/allbooks?pageNum=5&num=${val}`;
+      axios.get(url).then(res => {
+        this.tableData = res.data.books;
+      });
     }
   },
   mounted() {
-    // "gid":1,"goodsname":"习近平谈治国理政","price":64,"imgsrc":"http://img3m7.ddimg.cn/56/32/28978247-1_l_4.jpg",
-    //"keywords":" 习近平谈治国理政（第三卷）（中文平装）100册以上团购请联系团购电话4001066666转6","author":"习近平","pjnumber":4,"scnumber":12312}
-    var url = "http://localhost:7001/allbooks";
+    var url = "http://localhost:7001/allbooks?pageNum=5&num=1";
     axios.get(url).then(res => {
-      console.log(res.data);
-      this.tableData = res.data;
+      this.tableData = res.data.books;
     });
+    var url = "http://localhost:7001/getallbooks"; //无条件查询所有商品
+    axios.get(url).then((res)=>{
+       this.countID = res.data.countID;
+    })
   }
 };
 </script>
 <style scoped>
 .nav {
-  margin-top: 50px;
+  margin-top: 10px;
   height: 900px;
-  background-color: darkgreen;
 }
 .demo-table-expand {
   font-size: 0;
@@ -109,5 +133,12 @@ export default {
   margin-right: 0;
   margin-bottom: 0;
   width: 50%;
+}
+.el-table .warning-row {
+  background: oldlace;
+}
+
+.el-table .success-row {
+  background: #f0f9eb;
 }
 </style>
