@@ -1,5 +1,8 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+  <el-container>
+  <el-header>Header</el-header>
+  
+</el-container>
   </div>
 </template>
