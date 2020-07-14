@@ -75,11 +75,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-<<<<<<< HEAD
       "templatePath": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
-=======
-      "templatePath": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -92,13 +88,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-<<<<<<< HEAD
         "default": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
         "development": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
-=======
-        "default": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       }
     },
     "customLogger": {
@@ -144,22 +135,14 @@
     },
     "static": {
       "prefix": "/public/",
-<<<<<<< HEAD
       "dir": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\app\\public",
-=======
-      "dir": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\app\\public",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-<<<<<<< HEAD
       "root": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\app\\view",
-=======
-      "root": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\app\\view",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -244,15 +227,9 @@
       "author": "jyl",
       "license": "MIT"
     },
-<<<<<<< HEAD
     "baseDir": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server",
     "HOME": "C:\\Users\\leixiang",
     "rundir": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\run",
-=======
-    "baseDir": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server",
-    "HOME": "C:\\Users\\wo",
-    "rundir": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\run",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
     "dump": {
       "ignore": "<Set>"
     },
@@ -284,11 +261,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-<<<<<<< HEAD
       "dir": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\logs\\myshop",
-=======
-      "dir": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\logs\\myshop",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -364,13 +337,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-session",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-session",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "3.2.0"
     },
     "security": {
@@ -382,13 +350,8 @@
         "session"
       ],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "2.8.0"
     },
     "jsonp": {
@@ -400,13 +363,8 @@
         "security"
       ],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-jsonp",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-jsonp",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "2.0.0"
     },
     "onerror": {
@@ -418,13 +376,8 @@
         "jsonp"
       ],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-onerror",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-onerror",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "2.1.0"
     },
     "i18n": {
@@ -434,13 +387,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "2.1.1"
     },
     "watcher": {
@@ -450,13 +398,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "3.1.1"
     },
     "schedule": {
@@ -466,13 +409,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-schedule",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-schedule",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "3.6.4"
     },
     "multipart": {
@@ -484,13 +422,8 @@
         "schedule"
       ],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "2.10.3"
     },
     "development": {
@@ -504,13 +437,8 @@
       "env": [
         "local"
       ],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-development",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-development",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "2.5.0"
     },
     "logrotator": {
@@ -522,13 +450,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-logrotator",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-logrotator",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "3.1.0"
     },
     "static": {
@@ -538,13 +461,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-static",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-static",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "2.2.0"
     },
     "view": {
@@ -554,13 +472,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-view",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-view",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "2.1.2"
     },
     "mysql": {
@@ -570,13 +483,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-mysql",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-mysql",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "3.0.0"
     },
     "cors": {
@@ -586,13 +494,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-<<<<<<< HEAD
       "from": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\plugin.js",
       "path": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-cors",
-=======
-      "from": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\plugin.js",
-      "path": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-cors",
->>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "version": "2.2.3"
     }
   }
