@@ -2,6 +2,24 @@
   {
     "name": null,
     "methods": [
+<<<<<<< HEAD
+=======
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+<<<<<<< HEAD
+=======
+>>>>>>> 20dc716ed8bc9a89640d9a7a82c02f247d162df8
       "POST"
     ],
     "paramNames": [],
@@ -14,10 +32,15 @@
   {
     "name": null,
     "methods": [
+>>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
       "HEAD",
       "GET"
     ],
     "paramNames": [],
+<<<<<<< HEAD
+    "path": "/addDetail",
+    "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
+=======
     "path": "/allbooks",
     "regexp": "/^\\/allbooks(?:\\/(?=$))?$/",
     "stack": [
@@ -45,6 +68,7 @@
     "paramNames": [],
     "path": "/my",
     "regexp": "/^\\/my(?:\\/(?=$))?$/",
+>>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
     "stack": [
       "wrappedController"
     ]
