@@ -11,7 +11,7 @@ module.exports = app => {
   } = app;
 
 
-  router.get('/', controller.home.index);
+  // router.get('/', controller.home.index);
 
   router.get('/addDetail', controller.detail.addDetail);//商品详情
 

@@ -18,11 +18,11 @@ Vue.use(VueRouter)
 
     
   },
-  {
-    path: '/about',
-    name: 'About',
-    component: () => import('../views/About.vue')
-  },
+  // {
+  //   path: '/about',
+  //   name: 'About',
+  //   component: () => import('../views/About.vue')
+  // },
 
   {
     path: '/detail',
