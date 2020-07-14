@@ -30,7 +30,7 @@ class UserController extends Controller {
 		var result = await this.ctx.service.user.login(obj)
 		if (result[0]) {
 			if (obj.password == result[0].password) {
-				this.ctx.session.islogin=true
+				this.ctx.session.islogin=obj.username
 				ctx.body = {
 					info: "登录成功",
 					code: 200

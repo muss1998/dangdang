@@ -1766,3 +1766,33 @@ hostname: FH76NJO29HM8FWC
 2020-07-14 13:34:16,301 INFO 15308 [egg-watcher:application] watcher start success
 2020-07-14 13:34:16,304 INFO 15308 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 14 2020 13:34:15 GMT+0800 (GMT+08:00)
 2020-07-14 13:34:16,342 INFO 15308 [egg:core] dump config after ready, 35ms
+2020-07-14 14:27:42,862 INFO 18824 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\hh\\Desktop\\dangdang\\server\\logs\\myshop","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myshop-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-14 14:27:42,910 INFO 18824 [egg-multipart] stream mode enable
+2020-07-14 14:27:42,911 INFO 18824 [egg-mysql] connecting root@192.168.3.234:3306/dangdang
+2020-07-14 14:27:48,165 INFO 18824 [egg-static] starting static serve /public/ -> C:\Users\hh\Desktop\dangdang\server\app\public
+2020-07-14 14:27:48,177 INFO 18824 [egg-security] use methodnoallow middleware
+2020-07-14 14:27:48,189 INFO 18824 [egg-security] use noopen middleware
+2020-07-14 14:27:48,198 INFO 18824 [egg-security] use nosniff middleware
+2020-07-14 14:27:48,208 INFO 18824 [egg-security] use xssProtection middleware
+2020-07-14 14:27:48,218 INFO 18824 [egg-security] use xframe middleware
+2020-07-14 14:27:48,242 INFO 18824 [egg-security] use dta middleware
+2020-07-14 14:27:48,242 INFO 18824 [egg-security] compose 6 middlewares into one security middleware
+2020-07-14 14:27:48,369 INFO 18824 [egg:core] dump config after load, 76ms
+2020-07-14 14:27:48,726 INFO 18824 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 14 2020 14:27:47 GMT+0800 (GMT+08:00)
+2020-07-14 14:27:48,729 INFO 18824 [egg-watcher:application] watcher start success
+2020-07-14 14:27:48,782 INFO 18824 [egg:core] dump config after ready, 51ms
+2020-07-14 14:40:30,662 INFO 26544 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\hh\\Desktop\\dangdang\\server\\logs\\myshop","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myshop-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-14 14:40:30,730 INFO 26544 [egg-multipart] stream mode enable
+2020-07-14 14:40:30,731 INFO 26544 [egg-mysql] connecting root@192.168.3.234:3306/dangdang
+2020-07-14 14:40:31,748 INFO 26544 [egg-static] starting static serve /public/ -> C:\Users\hh\Desktop\dangdang\server\app\public
+2020-07-14 14:40:31,754 INFO 26544 [egg-security] use methodnoallow middleware
+2020-07-14 14:40:31,756 INFO 26544 [egg-security] use noopen middleware
+2020-07-14 14:40:31,758 INFO 26544 [egg-security] use nosniff middleware
+2020-07-14 14:40:31,759 INFO 26544 [egg-security] use xssProtection middleware
+2020-07-14 14:40:31,760 INFO 26544 [egg-security] use xframe middleware
+2020-07-14 14:40:31,761 INFO 26544 [egg-security] use dta middleware
+2020-07-14 14:40:31,761 INFO 26544 [egg-security] compose 6 middlewares into one security middleware
+2020-07-14 14:40:31,828 INFO 26544 [egg:core] dump config after load, 42ms
+2020-07-14 14:40:31,883 INFO 26544 [egg-watcher:application] watcher start success
+2020-07-14 14:40:31,885 INFO 26544 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 14 2020 14:40:31 GMT+0800 (GMT+08:00)
+2020-07-14 14:40:31,931 INFO 26544 [egg:core] dump config after ready, 35ms
