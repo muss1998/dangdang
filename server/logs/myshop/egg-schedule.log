@@ -1140,6 +1140,47 @@
 >>>>>>> 2028488ebfc58975491ae1bc249104bee5a4edb4
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 <<<<<<< HEAD
+2020-07-15 09:14:53,883 INFO 11092 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 09:14:53,883 INFO 11092 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 09:14:53,883 INFO 11092 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 09:14:54,123 INFO 3624 [Timer] C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69305881ms at 2020-07-16 04:30:00.004
+2020-07-15 09:14:54,123 INFO 3624 [Timer] C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 53105877ms at 2020-07-16 00:00:00.000
+2020-07-15 09:14:54,123 INFO 3624 [Timer] C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 53106877ms at 2020-07-16 00:00:01.000
+2020-07-15 10:39:32,918 INFO 19356 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 10:39:32,918 INFO 19356 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 10:39:32,918 INFO 19356 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 10:39:37,052 INFO 21448 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 10:39:37,052 INFO 21448 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 10:39:37,052 INFO 21448 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 10:39:39,008 INFO 12876 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 10:39:39,008 INFO 12876 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 10:39:39,008 INFO 12876 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 10:40:30,341 INFO 20500 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 10:40:30,341 INFO 20500 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 10:40:30,341 INFO 20500 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 10:40:32,390 INFO 4592 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 10:40:32,390 INFO 4592 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 10:40:32,390 INFO 4592 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 11:43:45,624 INFO 10020 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 11:43:45,624 INFO 10020 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 11:43:45,624 INFO 10020 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 11:43:48,488 INFO 20392 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 11:43:48,488 INFO 20392 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 11:43:48,489 INFO 20392 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 14:26:06,517 INFO 12084 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 14:26:06,517 INFO 12084 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 14:26:06,517 INFO 12084 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 14:26:10,372 INFO 4688 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 14:26:10,372 INFO 4688 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 14:26:10,372 INFO 4688 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 15:31:16,580 INFO 8428 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 15:31:16,580 INFO 8428 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 15:31:16,580 INFO 8428 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 15:31:20,754 INFO 3020 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 15:31:20,754 INFO 3020 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 15:31:20,754 INFO 3020 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+=======
+<<<<<<< HEAD
 2020-07-15 10:17:00,143 INFO 35960 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2020-07-15 10:17:00,143 INFO 35960 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
 2020-07-15 10:17:00,143 INFO 35960 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
@@ -1149,6 +1190,7 @@
 =======
 >>>>>>> 9bd22f39ac526030609e7e41bddde83d5c2c626a
 >>>>>>> d1fd21aac9249b6bd10dbfadac179871dda1f15e
+<<<<<<< HEAD
 2020-07-15 11:29:58,831 INFO 43164 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2020-07-15 11:29:58,831 INFO 43164 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
 2020-07-15 11:29:58,831 INFO 43164 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
@@ -1179,3 +1221,15 @@
 2020-07-15 15:40:13,329 INFO 15192 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2020-07-15 15:40:13,329 INFO 15192 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
 2020-07-15 15:40:13,329 INFO 15192 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+=======
+>>>>>>> 84c21b8a9e265447b8b197f0de672e093698cf78
+2020-07-15 15:38:00,434 INFO 2028 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 15:38:00,434 INFO 2028 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 15:38:00,434 INFO 2028 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 15:38:03,992 INFO 10008 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 15:38:03,992 INFO 10008 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 15:38:03,992 INFO 10008 [egg-schedule]: register schedule C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+>>>>>>> 816ab1bdc105ca66e04018c68c5ab695c0aa7e41
+2020-07-15 15:48:14,237 INFO 14620 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 15:48:14,237 INFO 14620 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 15:48:14,237 INFO 14620 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

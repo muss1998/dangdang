@@ -30,8 +30,21 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/detailpl",
-    "regexp": "/^\\/detailpl(?:\\/(?=$))?$/",
+    "path": "/car",
+    "regexp": "/^\\/car(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/addDetail",
+    "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -42,8 +55,20 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/administratorLogin",
-    "regexp": "/^\\/administratorLogin(?:\\/(?=$))?$/",
+    "path": "/tocar",
+    "regexp": "/^\\/tocar(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/detailpl",
+    "regexp": "/^\\/detailpl(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
