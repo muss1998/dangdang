@@ -5251,3 +5251,18 @@ hostname: FH76NJO29HM8FWC
 2020-07-15 15:38:04,247 INFO 10008 [egg-watcher:application] watcher start success
 2020-07-15 15:38:04,250 INFO 10008 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jul 15 2020 15:38:03 GMT+0800 (GMT+08:00)
 2020-07-15 15:38:04,265 INFO 10008 [egg:core] dump config after ready, 11ms
+2020-07-15 16:10:31,939 INFO 4120 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\logs\\myshop","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myshop-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-15 16:10:31,986 INFO 4120 [egg-multipart] stream mode enable
+2020-07-15 16:10:31,987 INFO 4120 [egg-mysql] connecting root@192.168.3.234:3306/dangdang
+2020-07-15 16:10:32,228 INFO 4120 [egg-static] starting static serve /public/ -> C:\Users\leixiang\Desktop\project\dangdang\server\app\public
+2020-07-15 16:10:32,233 INFO 4120 [egg-security] use methodnoallow middleware
+2020-07-15 16:10:32,235 INFO 4120 [egg-security] use noopen middleware
+2020-07-15 16:10:32,237 INFO 4120 [egg-security] use nosniff middleware
+2020-07-15 16:10:32,238 INFO 4120 [egg-security] use xssProtection middleware
+2020-07-15 16:10:32,239 INFO 4120 [egg-security] use xframe middleware
+2020-07-15 16:10:32,240 INFO 4120 [egg-security] use dta middleware
+2020-07-15 16:10:32,240 INFO 4120 [egg-security] compose 6 middlewares into one security middleware
+2020-07-15 16:10:32,266 INFO 4120 [egg:core] dump config after load, 11ms
+2020-07-15 16:10:32,307 INFO 4120 [egg-watcher:application] watcher start success
+2020-07-15 16:10:32,315 INFO 4120 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jul 15 2020 16:10:31 GMT+0800 (GMT+08:00)
+2020-07-15 16:10:32,327 INFO 4120 [egg:core] dump config after ready, 10ms

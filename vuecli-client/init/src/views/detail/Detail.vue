@@ -280,12 +280,11 @@
 
 
 							<div class="inputexar">
-								<textarea type="text" placeholder="这本书的内容/作者/文笔....给你留下了怎么样的印象？是否值得推荐给其他书友？写下你的评论吧~">	</textarea>
+								<textarea type="text" @input="inpy()" v-model="msg" placeholder="这本书的内容/作者/文笔....给你留下了怎么样的印象？是否值得推荐给其他书友？写下你的评论吧~"></textarea>
 							</div>
 							<div>
-								<el-upload class="upload-demo" action="#" :on-preview="handlePreview"
-								 :on-remove="handleRemove" :before-remove="beforeRemove" multiple :limit="3" :on-exceed="handleExceed"
-								 :file-list="fileList">
+								<el-upload class="upload-demo" action="http://localhost:7001/uploadImg" :on-preview="handlePreview" :on-remove="handleRemove"
+								 :before-remove="beforeRemove"  :on-success="uploadimg" multiple :limit="3" :on-exceed="handleExceed" :file-list="fileList">
 									<el-button size="small" type="primary">点击上传</el-button>
 									<div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
 								</el-upload>
@@ -363,18 +362,22 @@
 					name: 'food2.jpeg',
 					url: 'https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg?imageMogr2/thumbnail/360x360/format/webp/quality/100'
 
-			}],
-		value1: null,
-		value: null,
-		goodstail: {},
-		num: 1,
-		gid: 2,
-		activeName: 'first',
-		flag: false,
-		// flag1:"false"
-	}
-	},
-	methods: {
+				}],
+				value1: null,
+				value: null,
+				goodstail: {},
+				num: 1,
+				gid: 2,
+				activeName: 'first',
+				flag: false,
+				// flag1:"false"
+				msg: "",
+				img:""
+
+			}
+		},
+
+		methods: {
 			// buy(){},
 
 			// tocar() {
@@ -387,6 +390,9 @@
 			// 		})
 			// 	}
 			// }
+			uploadimg(){
+				console.log(1111111)
+			},
 			handleRemove(file, fileList) {
 				console.log(file, fileList);
 			},
@@ -406,12 +412,36 @@
 			tijao() {
 				console.log(this.value)
 				this.flag = false
+				var url3 = `http://localhost:7001/detailpl`
+				axios.post(url3, {
+					value: this.value,
+					gid: this.gid,
+					msg:this.msg
+				}, {
+					withCredentials: true
+				}).then((res) => {
+					console.log(res)
+					console.log(res.data)
+					if (res.data.code == 4000) {
+						alert("没有登录，请登录！")
+						this.$router.push({
+							path: `/login?from:this.$route.path`,
+
+						})
+					}
+				})
+
+				console.log(this.$route.path)
 			},
 			handleClick(tab, event) {
 				console.log(tab, event);
 			},
 			jia() {
 				this.num++
+			},
+			inpy() {
+
+				console.log(this.msg);
 			},
 			jian() {
 				this.num--
@@ -442,6 +472,7 @@
 		},
 
 		mounted() {
+
 			// console.log(this.$route)
 			//打印id之后就拿去请求数据
 			// console.log(this.$route.query.id)
