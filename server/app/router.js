@@ -12,6 +12,10 @@ module.exports = app => {
 
 
 
+
+
+  //雷香
+
   // router.get('/', controller.home.index);
 //雷香1、商品详情
   router.get('/addDetail', controller.detail.addDetail);
@@ -19,6 +23,11 @@ module.exports = app => {
   router.post('/tocar', controller.tocar.tocar);
 
   router.post('/car', controller.car.getCar);//购物车
+
+
+  router.get('/addDetail', controller.detail.addDetail);//商品详情
+  router.post('/tocar', controller.tocar.tocar);//添加到购物车
+  router.post('/detailpl', controller.detail.detailpl);//添加评论
 
 
 
@@ -58,7 +67,7 @@ module.exports = app => {
 
   
 
-
+  //雷磊
   router.post('/search', controller.user.search);//查看是否有该用户
   router.post('/login', controller.user.login);
   router.post('/register', controller.user.register);

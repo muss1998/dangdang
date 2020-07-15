@@ -1844,6 +1844,27 @@ hostname: DESKTOP-PN27GPC
 =======
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 
+<<<<<<< HEAD
+2020-07-15 11:25:01,361 ERROR 35960 nodejs.ServerNoResponseError: server 127.0.0.1:54484 no response in 39963ms, maybe the socket is end on the other side. (address: 127.0.0.1:54484)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\hh\Desktop\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ServerNoResponseError"
+pid: 35960
+hostname: DESKTOP-M4K67PD
+
+2020-07-15 11:29:29,418 ERROR 22560 nodejs.ClusterClientNoResponseError: client no response in 328001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\hh\Desktop\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 22560
+hostname: DESKTOP-M4K67PD
+=======
 2020-07-15 11:43:48,708 ERROR 3624 nodejs.unhandledExceptionError: read ECONNRESET
     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
 errno: "ECONNRESET"
@@ -1870,4 +1891,5 @@ syscall: "read"
 name: "unhandledExceptionError"
 pid: 3624
 hostname: DESKTOP-PN27GPC
+>>>>>>> 816ab1bdc105ca66e04018c68c5ab695c0aa7e41
 
