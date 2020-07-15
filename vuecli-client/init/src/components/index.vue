@@ -12,6 +12,8 @@
     <Threeimg></Threeimg>
     <Onlyapply></Onlyapply>
     <Hotauthor></Hotauthor>
+     <Threeimg></Threeimg>
+     <Maybelike></Maybelike>
     <router-view></router-view>
   </div>
 </template>
@@ -31,6 +33,7 @@ export default {
     Onlyapply: () => import("@/components/Onlyapply"),
     Threeimg: () => import("@/components/Threeimg"),
     Hotauthor: () => import("@/components/Hotauthor"),
+    Maybelike: () => import("@/components/Maybelike"),
     Searchbutton: () => import("@/components/Searchbutton")
   }
 };
