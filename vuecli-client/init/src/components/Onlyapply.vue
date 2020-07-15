@@ -4,18 +4,14 @@
       <div class="left">
         <div class="headertitle">1</div>
         <div class="headerright">
-          <li>主打</li>
-          <li>主打</li>
-          <li>主打</li>
-          <li>主打</li>
-          <li>主打</li>
-          <li>主打</li>
-          <li>主打</li>
-          <li>主打</li>
-          <li>主打</li>
-          <li>主打</li>
-          <li>主打</li>
-          
+         
+
+
+1111
+
+
+
+
         </div>
       </div>
     </div>
@@ -29,7 +25,8 @@
 export default {
   data() {
     return {};
-  }
+  },
+  
 };
 </script>
 
@@ -66,7 +63,7 @@ export default {
   margin-top: 14px;
   margin-left: 48px;
 }
-.only .only_left .left .headerright li {
+.only .only_left .left .headerright .titlename {
   list-style: none;
   display: inline-block;
   line-height: 32px;
@@ -74,15 +71,14 @@ export default {
   font-size: 14px;
   font-family: "Microsoft yahei";
   text-align: center;
-  width: 68px;
-   cursor: pointer;
+  width: 84px;
+  cursor: pointer;
 }
 .only .only_left .left .headerright li:hover {
-   color: #4e8716;
-   font-weight: bold;
-   border: 2px solid #4e8716;
+  color: #4e8716;
+  font-weight: bold;
+  border: 2px solid #4e8716;
 }
-
 
 .only .only_right {
   height: 582px;
