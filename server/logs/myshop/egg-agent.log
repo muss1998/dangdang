@@ -2330,3 +2330,23 @@ hostname: FH76NJO29HM8FWC
 >>>>>>> 9b8a30f92d3a9164b94f3aa4e8ce295b3972b685
 >>>>>>> 2028488ebfc58975491ae1bc249104bee5a4edb4
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
+2020-07-15 10:14:46,613 INFO 43888 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\hh\\Desktop\\dangdang\\server\\logs\\myshop","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myshop-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-15 10:14:46,646 INFO 43888 [egg:core] dump config after load, 23ms
+2020-07-15 10:14:47,160 INFO 43888 [egg-watcher] Start watching: ["C:\\Users\\hh\\Desktop\\dangdang\\server\\app","C:\\Users\\hh\\Desktop\\dangdang\\server\\config","C:\\Users\\hh\\Desktop\\dangdang\\server\\mocks","C:\\Users\\hh\\Desktop\\dangdang\\server\\mocks_proxy","C:\\Users\\hh\\Desktop\\dangdang\\server\\app.js"]
+2020-07-15 10:14:47,160 INFO 43888 [egg-watcher] Start watching: "C:\\Users\\hh\\Desktop\\dangdang\\server\\app"
+2020-07-15 10:14:47,160 INFO 43888 [egg-watcher] Start watching: "C:\\Users\\hh\\Desktop\\dangdang\\server\\config"
+2020-07-15 10:14:47,160 INFO 43888 [egg-watcher] Start watching: "C:\\Users\\hh\\Desktop\\dangdang\\server\\mocks"
+2020-07-15 10:14:47,160 INFO 43888 [egg-watcher] Start watching: "C:\\Users\\hh\\Desktop\\dangdang\\server\\mocks_proxy"
+2020-07-15 10:14:47,161 INFO 43888 [egg-watcher] Start watching: "C:\\Users\\hh\\Desktop\\dangdang\\server\\app.js"
+2020-07-15 10:14:47,161 INFO 43888 [egg-watcher:agent] watcher start success
+2020-07-15 10:14:47,258 INFO 43888 [egg:core] dump config after ready, 39ms
+2020-07-15 10:16:57,618 INFO 22560 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\hh\\Desktop\\dangdang\\server\\logs\\myshop","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myshop-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-15 10:16:57,650 INFO 22560 [egg:core] dump config after load, 22ms
+2020-07-15 10:16:57,738 INFO 22560 [egg-watcher] Start watching: ["C:\\Users\\hh\\Desktop\\dangdang\\server\\app","C:\\Users\\hh\\Desktop\\dangdang\\server\\config","C:\\Users\\hh\\Desktop\\dangdang\\server\\mocks","C:\\Users\\hh\\Desktop\\dangdang\\server\\mocks_proxy","C:\\Users\\hh\\Desktop\\dangdang\\server\\app.js"]
+2020-07-15 10:16:57,738 INFO 22560 [egg-watcher] Start watching: "C:\\Users\\hh\\Desktop\\dangdang\\server\\app"
+2020-07-15 10:16:57,738 INFO 22560 [egg-watcher] Start watching: "C:\\Users\\hh\\Desktop\\dangdang\\server\\config"
+2020-07-15 10:16:57,739 INFO 22560 [egg-watcher] Start watching: "C:\\Users\\hh\\Desktop\\dangdang\\server\\mocks"
+2020-07-15 10:16:57,739 INFO 22560 [egg-watcher] Start watching: "C:\\Users\\hh\\Desktop\\dangdang\\server\\mocks_proxy"
+2020-07-15 10:16:57,739 INFO 22560 [egg-watcher] Start watching: "C:\\Users\\hh\\Desktop\\dangdang\\server\\app.js"
+2020-07-15 10:16:57,739 INFO 22560 [egg-watcher:agent] watcher start success
+2020-07-15 10:16:57,800 INFO 22560 [egg:core] dump config after ready, 47ms

@@ -39,12 +39,11 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
-    "path": "/allbooks",
-    "regexp": "/^\\/allbooks(?:\\/(?=$))?$/",
+    "path": "/car",
+    "regexp": "/^\\/car(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -115,7 +114,8 @@
   {
     "name": null,
     "methods": [
-      "POST"
+      "HEAD",
+      "GET"
     ],
     "paramNames": [],
     "path": "/car",

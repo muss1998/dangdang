@@ -1119,3 +1119,9 @@
 >>>>>>> 9b8a30f92d3a9164b94f3aa4e8ce295b3972b685
 >>>>>>> 2028488ebfc58975491ae1bc249104bee5a4edb4
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
+2020-07-15 10:17:00,143 INFO 35960 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-15 10:17:00,143 INFO 35960 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-15 10:17:00,143 INFO 35960 [egg-schedule]: register schedule C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-15 10:17:00,754 INFO 22560 [Timer] C:\Users\hh\Desktop\dangdang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 65579250ms at 2020-07-16 04:30:00.004
+2020-07-15 10:17:00,754 INFO 22560 [Timer] C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 49379246ms at 2020-07-16 00:00:00.000
+2020-07-15 10:17:00,755 INFO 22560 [Timer] C:\Users\hh\Desktop\dangdang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 49380246ms at 2020-07-16 00:00:01.001
