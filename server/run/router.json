@@ -55,6 +55,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/car",
+    "regexp": "/^\\/car(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/addbooks",
     "regexp": "/^\\/addbooks(?:\\/(?=$))?$/",
     "stack": [
@@ -115,7 +127,8 @@
   {
     "name": null,
     "methods": [
-      "POST"
+      "HEAD",
+      "GET"
     ],
     "paramNames": [],
     "path": "/car",
