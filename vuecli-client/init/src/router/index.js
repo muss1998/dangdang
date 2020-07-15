@@ -42,10 +42,25 @@ Vue.use(VueRouter)
   }
 ]
 
+
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
+})
+router.beforeEach((to, from, next) => {
+  if (to.path == "/my" || to.path == "/car") {
+    let flag = window.localStorage.getItem("islogin");
+    if(flag){
+      next()
+    }else{
+      alert("请先登录")
+      next("/login")
+    }
+  }else{
+    next()
+  }
+
 })
 
 export default router

@@ -138,7 +138,7 @@ export default {
               this.$alert(res.data.info, "温馨提示", {
                 confirmButtonText: "确定",
                 callback: () => {
-                  this.$router.push("/login");
+                  this.$router.push(`/login?from=${this.$route.path}`);
                 }
               });
             } else {

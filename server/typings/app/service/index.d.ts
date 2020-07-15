@@ -10,7 +10,11 @@ import ExportAdministrator = require('../../../app/service/administrator');
 import ExportCar = require('../../../app/service/car');
 import ExportDetail = require('../../../app/service/detail');
 import ExportMy = require('../../../app/service/my');
+<<<<<<< HEAD
 import ExportTocar = require('../../../app/service/tocar');
+=======
+import ExportMychgkey = require('../../../app/service/mychgkey');
+>>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 import ExportUser = require('../../../app/service/user');
 
 declare module 'egg' {
@@ -19,7 +23,11 @@ declare module 'egg' {
     car: AutoInstanceType<typeof ExportCar>;
     detail: AutoInstanceType<typeof ExportDetail>;
     my: AutoInstanceType<typeof ExportMy>;
+<<<<<<< HEAD
     tocar: AutoInstanceType<typeof ExportTocar>;
+=======
+    mychgkey: AutoInstanceType<typeof ExportMychgkey>;
+>>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
     user: AutoInstanceType<typeof ExportUser>;
   }
 }
