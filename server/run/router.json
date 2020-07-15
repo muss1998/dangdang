@@ -2,6 +2,19 @@
   {
     "name": null,
     "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/addDetail",
+    "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "POST"
     ],
     "paramNames": [],
@@ -18,13 +31,8 @@
       "GET"
     ],
     "paramNames": [],
-<<<<<<< HEAD
     "path": "/allbooks",
     "regexp": "/^\\/allbooks(?:\\/(?=$))?$/",
-=======
-    "path": "/addDetail",
-    "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
->>>>>>> 9f342bab081c6c4cd0e08a2d492830ffca6beabb
     "stack": [
       "wrappedController"
     ]
