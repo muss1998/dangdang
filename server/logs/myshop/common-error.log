@@ -389,6 +389,912 @@ pid: 6468
 hostname: DESKTOP-6BKTIMC
 >>>>>>> 0ee5c1d86c1defd6fb3723812d99f62b0e0913b4
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+2020-07-14 15:48:40,373 ERROR 7292 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7292
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:01:33,244 ERROR 19440 [-/::1/-/10ms GET /tocar?num=3&gid=2] nodejs.ReferenceError: uid is not defined
+    at TocarService.tocar (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\tocar.js:4:21)
+    at TocarController.tocar (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\tocar.js:18:54)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+
+pid: 19440
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:03:28,388 ERROR 23068 [-/::1/-/50ms GET /tocar?num=3&gid=2] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,  number,  username)  VALUES (2, undefined, "undefined")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,  number,  username)  VALUES (2, undefined, \"undefined\")"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 23068
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:04:28,314 ERROR 23068 [-/::1/-/6ms GET /tocar?num=3&gid=2&username=%E5%B0%8F%E5%B0%8F%E9%85%A5] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,  number,  username)  VALUES (2, undefined, "小小酥")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,  number,  username)  VALUES (2, undefined, \"小小酥\")"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 23068
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:07:34,184 ERROR 23312 [-/::1/-/20ms GET /tocar?num=3&gid=2&username=%E5%B0%8F%E5%B0%8F%E9%85%A5] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, "小小酥")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, \"小小酥\")"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 23312
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:08:27,461 ERROR 13824 [-/::1/-/12ms GET /tocar?num=3&gid=2&username=%E5%B0%8F%E5%B0%8F%E9%85%A5] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, "小小酥")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, \"小小酥\")"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 13824
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:08:47,198 ERROR 8000 [-/::1/-/44ms GET /tocar?num=3&gid=2&username=%E5%B0%8F%E5%B0%8F%E9%85%A5] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, "小小酥")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, \"小小酥\")"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 8000
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:09:22,476 ERROR 3500 [-/::1/-/31ms GET /tocar?num=3&gid=2&username=%E5%B0%8F%E5%B0%8F%E9%85%A5] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, "小小酥")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, \"小小酥\")"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 3500
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:10:32,772 ERROR 6284 [-/::1/-/19ms GET /tocar?num=3&gid=2&username=%E5%B0%8F%E5%B0%8F%E9%85%A5] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, "小小酥")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, \"小小酥\")"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6284
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:10:33,194 ERROR 6284 [-/::1/-/4ms GET /tocar?num=3&gid=2&username=%E5%B0%8F%E5%B0%8F%E9%85%A5] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, "小小酥")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, \"小小酥\")"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6284
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:11:12,398 ERROR 6284 [-/::1/-/4ms GET /tocar?num=3&gid=2&username=%E5%B0%8F%E5%B0%8F%E9%85%A5] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, "小小酥")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (2, undefined, \"小小酥\")"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6284
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:21:27,095 ERROR 9312 [-/::1/-/20ms GET /tocar?num=1&gid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (undefined, 1, "undefined")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (undefined, 1, \"undefined\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 9312
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:21:27,595 ERROR 9312 [-/::1/-/6ms GET /tocar?num=1&gid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (undefined, 1, "undefined")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (undefined, 1, \"undefined\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 9312
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 16:26:42,546 ERROR 9312 [-/::1/-/11ms GET /tocar?num=1&gid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (undefined, 1, "undefined")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (undefined, 1, \"undefined\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 9312
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 17:40:53,500 ERROR 15456 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15456
+hostname: DESKTOP-PN27GPC
+=======
+2020-07-14 10:04:18,425 ERROR 6136 nodejs.ClusterClientNoResponseError: client no response in 127299ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 6136
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 13:51:03,184 ERROR 6680 [-/::1/-/334ms POST /mychgkey] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set name = 'muss1' where uid=1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set name = 'muss1' where uid=1"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6680
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 13:52:02,368 ERROR 6680 [-/::1/-/5ms POST /mychgkey] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set name = 'muss1' where uid=1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set name = 'muss1' where uid=1"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6680
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 13:53:38,921 ERROR 6136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6136
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:06:36,246 ERROR 5912 [-/::1/-/8ms POST /mychgkey] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set username = 'cccccc' where uid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set username = 'cccccc' where uid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 5912
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:07:14,192 ERROR 5912 [-/::1/-/6ms POST /mychgkey] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set username = 'aaaaaaa' where uid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set username = 'aaaaaaa' where uid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 5912
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:07:40,065 ERROR 5912 [-/::1/-/5ms POST /mychgkey] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set username = 'aaaaaaa' where uid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set username = 'aaaaaaa' where uid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 5912
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:10:48,158 ERROR 5912 [-/::1/-/13ms POST /mychgkey] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set username = 'aaaaaaa' where uid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set username = 'aaaaaaa' where uid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 5912
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:11:55,204 ERROR 5912 [-/::1/-/8ms POST /mychgkey] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set username = 'tiyiuffutfu' where uid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set username = 'tiyiuffutfu' where uid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 5912
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:12:33,230 ERROR 5912 [-/::1/-/5ms POST /mychgkey] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set username = 'ssfsdfsadf' where uid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set username = 'ssfsdfsadf' where uid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 5912
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:13:08,321 ERROR 5912 [-/::1/-/6ms POST /mychgkey] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set username = 'asdasdada' where uid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set username = 'asdasdada' where uid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 5912
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:14:30,508 ERROR 7620 [-/::1/-/44ms POST /mychgkey] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set username = 'asdasdad' where uid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set username = 'asdasdad' where uid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 7620
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:18:52,928 ERROR 7620 nodejs.ServerNoResponseError: server 127.0.0.1:55949 no response in 39972ms, maybe the socket is end on the other side. (address: 127.0.0.1:55949)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ServerNoResponseError"
+pid: 7620
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:19:24,671 ERROR 7900 nodejs.ClusterClientNoResponseError: client no response in 91711ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 7900
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:28:06,019 ERROR 7304 [-/::1/-/4ms POST /mychgusern] nodejs.TypeError: this.ctx.service.mychgkey.myChgUsers is not a function
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:11:49)
+    at Object.callFn (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7304
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 14:42:01,513 ERROR 6752 [-/::1/-/6ms POST /mychgusern] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: update  user set username = 'qqqqqq' where uid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update  user set username = 'qqqqqq' where uid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6752
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 16:45:33,635 ERROR 7284 [-/::1/-/64ms POST /my] nodejs.TypeError: Cannot read property 'get' of undefined
+    at MyController.getMy (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\my.js:11:34)
+    at Object.callFn (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7284
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 17:00:26,530 ERROR 9052 nodejs.ClusterClientNoResponseError: client no response in 62935ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 9052
+hostname: FH76NJO29HM8FWC
+
+2020-07-14 17:04:03,221 ERROR 8404 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:64381)
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:713:5)
+    at Socket._write (net.js:725:8)
+    at doWrite (_stream_writable.js:410:12)
+    at writeOrBuffer (_stream_writable.js:394:5)
+    at Socket.Writable.write (_stream_writable.js:294:11)
+    at Follower.sendHeartBeat (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\tcp-base\lib\base.js:105:18)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\tcp-base\lib\base.js:437:12)
+    at ontimeout (timers.js:425:11)
+errno: "ECONNABORTED"
+code: "ECONNABORTED"
+syscall: "write"
+name: "ECONNABORTEDError"
+pid: 8404
+hostname: FH76NJO29HM8FWC
+>>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
+=======
 2020-07-14 09:48:13,701 ERROR 1152 [-/127.0.0.1/-/54ms GET /allbooks] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
     at Query.Sequence._packetToError (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
     at Query.ErrorPacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
@@ -763,4 +1669,178 @@ sql: "select * from goods where goodsname like \"%\"dd\"\" or \"%\"dd\"%\" or \"
 name: "ER_PARSE_ERRORError"
 pid: 8588
 hostname: DESKTOP-6BKTIMC
+>>>>>>> 2028488ebfc58975491ae1bc249104bee5a4edb4
+<<<<<<< HEAD
+
+2020-07-14 20:25:48,086 ERROR 10712 [-/::1/-/91ms POST /tocar] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (undefined, 1, "muss1998")
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (undefined, 1, \"muss1998\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10712
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 20:28:53,502 ERROR 13040 [-/::1/-/54ms POST /tocar] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where usernsme="muss1998"' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number)  VALUES (undefined, 1) where usernsme="muss1998"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where usernsme=\"muss1998\"' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number)  VALUES (undefined, 1) where usernsme=\"muss1998\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 13040
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 20:29:47,244 ERROR 19308 [-/::1/-/34ms POST /tocar] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where usernsme="muss1998"' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number)  VALUES (2, 1) where usernsme="muss1998"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where usernsme=\"muss1998\"' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number)  VALUES (2, 1) where usernsme=\"muss1998\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 19308
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 20:31:50,463 ERROR 14192 [-/::1/-/83ms POST /tocar] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where usernsme="muss1998"' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (2, 1,"muss1998") where usernsme="muss1998"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where usernsme=\"muss1998\"' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (2, 1,\"muss1998\") where usernsme=\"muss1998\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 14192
+hostname: DESKTOP-PN27GPC
+
+2020-07-14 20:32:48,967 ERROR 20856 [-/::1/-/39ms POST /tocar] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username="muss1998"' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: INSERT  INTO  cartable (gid,number,username)  VALUES (2, 1,"muss1998") where username="muss1998"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username=\"muss1998\"' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT  INTO  cartable (gid,number,username)  VALUES (2, 1,\"muss1998\") where username=\"muss1998\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 20856
+hostname: DESKTOP-PN27GPC
+=======
+>>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 

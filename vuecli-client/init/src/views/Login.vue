@@ -36,6 +36,8 @@
 <script>
 import axios from "axios";
 export default {
+  mounted () {
+  },
   data() {
     return {
       Username: "",
@@ -81,10 +83,16 @@ export default {
         )
         .then(res => {
           if (res.data.code == 200) {
+            window.localStorage.setItem("islogin",true)
             this.$alert(res.data.info, "温馨提示", {
               confirmButtonText: "确定",
               callback: () => {
-                this.$router.push("/");
+                if(this.$route.query.from=="/register"){
+                  this.$router.push(`/`)
+                }else{
+                  this.$router.push(`${this.$route.query.from}`)
+                }
+                ;
               }
             });
           } else {
@@ -104,10 +112,10 @@ export default {
 }
 
 .login-img {
-  width: 500px;
-  height: 450px;
+  width: 65%;
+  height: 50%;
   margin-top: 130px;
-  margin-left: 230px;
+  margin-left: 30%;
 }
 
 .login-form {

@@ -34,14 +34,14 @@ module.exports = appInfo => {
       enable: false,
       ignoreJSON: true,
     }
-  }
+  };
   //session配置
   config.session = {
     key: 'EGG_SESS',
     maxAge: 1000 * 3600 * 24, //过期时间
     httpOnly: true, //防止XSS攻击，窃取cookie内容，增加cookie的安全性。
     encrypt: true // 对cookie进行加密，获取时要对cookie进行解密操作。
-  }
+  };
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_';
 
