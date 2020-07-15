@@ -79,6 +79,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/uploadImg",
+    "regexp": "/^\\/uploadImg(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/administratorLogin",
     "regexp": "/^\\/administratorLogin(?:\\/(?=$))?$/",
     "stack": [

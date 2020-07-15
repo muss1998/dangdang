@@ -132,7 +132,7 @@
       "directory": []
     },
     "multipart": {
-      "mode": "stream",
+      "mode": "file",
       "autoFields": false,
       "defaultCharset": "utf8",
       "fieldNameSize": 100,
@@ -344,6 +344,7 @@
       "session",
       "securities",
       "i18n",
+      "multipart",
       "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,

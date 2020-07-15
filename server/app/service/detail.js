@@ -7,6 +7,12 @@ class DetailService extends Service {
         const data = await this.app.mysql.query(sql);
         return data;
       }
+	  
+  async detailpl(queryObj) {
+        const sql=`insert into comments`
+        const data = await this.app.mysql.query(sql);
+        return data;
+      }
 
 }
 module.exports = DetailService;

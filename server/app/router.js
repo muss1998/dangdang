@@ -28,6 +28,7 @@ module.exports = app => {
   router.get('/addDetail', controller.detail.addDetail);//商品详情
   router.post('/tocar', controller.tocar.tocar);//添加到购物车
   router.post('/detailpl', controller.detail.detailpl);//添加评论
+  router.post('/uploadImg', controller.detail.uploadImg);//添加评论
 
 
 

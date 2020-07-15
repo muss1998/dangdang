@@ -283,9 +283,11 @@
 								<textarea type="text" placeholder="这本书的内容/作者/文笔....给你留下了怎么样的印象？是否值得推荐给其他书友？写下你的评论吧~">	</textarea>
 							</div>
 							<div>
-								<el-upload class="upload-demo" action="#" :on-preview="handlePreview"
-								 :on-remove="handleRemove" :before-remove="beforeRemove" multiple :limit="3" :on-exceed="handleExceed"
-								 :file-list="fileList">
+								<el-upload class="upload-demo" action="http://localhost:7001/detailpl" 
+								  multiple :limit="3"
+								 :file-list="fileList" name="myfile" :before-upload="handleFileBefore" :with-credentials="myCred" :on-success="handleFileSucc">
+
+
 									<el-button size="small" type="primary">点击上传</el-button>
 									<div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
 								</el-upload>
@@ -356,24 +358,18 @@
 		name: "detail",
 		data() {
 			return {
-				fileList: [{
-					name: 'food.jpeg',
-					url: 'https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg?imageMogr2/thumbnail/360x360/format/webp/quality/100'
-				}, {
-					name: 'food2.jpeg',
-					url: 'https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg?imageMogr2/thumbnail/360x360/format/webp/quality/100'
-
-			}],
-		value1: null,
-		value: null,
-		goodstail: {},
-		num: 1,
-		gid: 2,
-		activeName: 'first',
-		flag: false,
-		// flag1:"false"
-	}
-	},
+				myCred:true,
+				fileList: [],
+				value1: null,
+				value: null,
+				goodstail: {},
+				num: 1,
+				gid: 2,
+				activeName: 'first',
+				flag: false,
+				// flag1:"false"
+			}
+		},
 	methods: {
 			// buy(){},
 
@@ -387,17 +383,13 @@
 			// 		})
 			// 	}
 			// }
-			handleRemove(file, fileList) {
-				console.log(file, fileList);
+			handleFileBefore(){
+				console.log("before-upload")
+				console.log(arguments)
 			},
-			handlePreview(file) {
-				console.log(file);
-			},
-			handleExceed(files, fileList) {
-				this.$message.warning(`当前限制选择 3 个文件，本次选择了 ${files.length} 个文件，共选择了 ${files.length + fileList.length} 个文件`);
-			},
-			beforeRemove(file, fileList) {
-				return this.$confirm(`确定移除 ${ file.name }？`);
+			handleFileSucc(){
+				console.log("success")
+				console.log(arguments)
 			},
 			vshow() {
 				// this.flag = true
@@ -449,7 +441,6 @@
 			// var gid = this.$route.query.gid
 			var gid = this.gid
 			// this.gid=this.$route.query.gid
-			console.log(this.gid)
 			var url = "http://localhost:7001/addDetail?gid=" + gid
 			axios.get(url).then((res) => {
 				// console.log(res)
