@@ -15,8 +15,6 @@
   {
     "name": null,
     "methods": [
-<<<<<<< HEAD
-=======
       "POST"
     ],
     "paramNames": [],
@@ -29,7 +27,18 @@
   {
     "name": null,
     "methods": [
->>>>>>> 9bd22f39ac526030609e7e41bddde83d5c2c626a
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/detailpl",
+    "regexp": "/^\\/detailpl(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "POST"
     ],
     "paramNames": [],
@@ -45,8 +54,21 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/car",
-    "regexp": "/^\\/car(?:\\/(?=$))?$/",
+    "path": "/administratorLogin",
+    "regexp": "/^\\/administratorLogin(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/allbooks",
+    "regexp": "/^\\/allbooks(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -117,8 +139,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/car",

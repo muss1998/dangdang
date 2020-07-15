@@ -8,6 +8,15 @@ class DetailController extends Controller {
       const { ctx } = this;
       ctx.body = await this.ctx.service.detail.addDetail(ctx.request.query);
     }
+	
+	async detailpl() {
+	  const { ctx } = this;
+	  console
+	  let result=await this.ctx.service.detail.detailpl(ctx.request.query);
+	  ctx.body ={
+		  info:"提交成功"
+	  }
+	}
  
 }
 
