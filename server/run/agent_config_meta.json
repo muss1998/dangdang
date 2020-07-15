@@ -2,11 +2,33 @@
   "mysql": {
     "client": {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 55d91213de794bb3b620ea34b8f8dc2a931c9e67
+      "host": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+      "port": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+      "user": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+      "password": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+      "database": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js"
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 816ab1bdc105ca66e04018c68c5ab695c0aa7e41
+>>>>>>> bd5ac6c9426d3626bb471e701c0323292bcfba24
       "host": "C:\\Users\\hh\\Desktop\\dangdang\\server\\config\\config.default.js",
       "port": "C:\\Users\\hh\\Desktop\\dangdang\\server\\config\\config.default.js",
       "user": "C:\\Users\\hh\\Desktop\\dangdang\\server\\config\\config.default.js",
       "password": "C:\\Users\\hh\\Desktop\\dangdang\\server\\config\\config.default.js",
       "database": "C:\\Users\\hh\\Desktop\\dangdang\\server\\config\\config.default.js"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
       "host": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
@@ -14,105 +36,112 @@
       "user": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
       "password": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
       "database": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js"
+>>>>>>> 84c21b8a9e265447b8b197f0de672e093698cf78
+>>>>>>> 55d91213de794bb3b620ea34b8f8dc2a931c9e67
     },
     "default": {
-      "database": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-mysql\\config\\config.default.js",
-      "connectionLimit": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-mysql\\config\\config.default.js"
+      "database": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-mysql\\config\\config.default.js"
     },
-    "app": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-mysql\\config\\config.default.js",
-    "agent": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-mysql\\config\\config.default.js"
+    "app": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-mysql\\config\\config.default.js",
+    "agent": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-mysql\\config\\config.default.js"
   },
   "cors": {
-    "origin": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
-    "allowMethods": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
-    "credentials": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js"
+    "origin": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+    "allowMethods": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+    "credentials": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js"
   },
   "security": {
     "csrf": {
-      "enable": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
-      "ignoreJSON": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
-      "type": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+      "ignoreJSON": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+      "type": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
-      "enable": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "session": {
-    "key": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
-    "maxAge": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
-    "httpOnly": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
-    "encrypt": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js"
+    "key": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+    "maxAge": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+    "encrypt": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js"
   },
-  "keys": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
-  "middleware": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+  "keys": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+  "middleware": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
   "helper": {
-    "shtml": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
+      "default": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.default.js"
+<<<<<<< HEAD
+=======
+=======
       "default": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.default.js"
 =======
@@ -123,6 +152,8 @@
       "password": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
       "database": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js"
 >>>>>>> d1fd21aac9249b6bd10dbfadac179871dda1f15e
+>>>>>>> 816ab1bdc105ca66e04018c68c5ab695c0aa7e41
+>>>>>>> bd5ac6c9426d3626bb471e701c0323292bcfba24
     },
     "default": {
       "database": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg-mysql\\config\\config.default.js",
@@ -222,19 +253,38 @@
   "watcher": {
     "type": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-<<<<<<< HEAD
       "default": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.default.js"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 =======
       "default": "C:\\Users\\Administrator\\Desktop\\app\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "C:\\Users\\Administrator\\Desktop\\app\\dangdang\\server\\node_modules\\egg-watcher\\config\\config.default.js"
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 >>>>>>> 9bd22f39ac526030609e7e41bddde83d5c2c626a
 >>>>>>> d1fd21aac9249b6bd10dbfadac179871dda1f15e
+>>>>>>> 84c21b8a9e265447b8b197f0de672e093698cf78
+>>>>>>> 816ab1bdc105ca66e04018c68c5ab695c0aa7e41
+>>>>>>> 55d91213de794bb3b620ea34b8f8dc2a931c9e67
+>>>>>>> bd5ac6c9426d3626bb471e701c0323292bcfba24
     }
   },
   "customLogger": {
     "scheduleLogger": {
+<<<<<<< HEAD
+      "consoleLevel": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      "consoleLevel": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+=======
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
       "consoleLevel": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js",
       "file": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js"
@@ -444,6 +494,8 @@
   "onClientError": "C:\\Users\\wo\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\config.default.js"
 =======
 <<<<<<< HEAD
+>>>>>>> 84c21b8a9e265447b8b197f0de672e093698cf78
+>>>>>>> 55d91213de794bb3b620ea34b8f8dc2a931c9e67
       "consoleLevel": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js",
       "file": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js"
     }
@@ -646,10 +698,16 @@
     "responseTimeout": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\config.default.js"
   },
   "onClientError": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg\\config\\config.default.js"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 =======
       "consoleLevel": "C:\\Users\\Administrator\\Desktop\\app\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js",
       "file": "C:\\Users\\Administrator\\Desktop\\app\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js"
 >>>>>>> d1fd21aac9249b6bd10dbfadac179871dda1f15e
+>>>>>>> 816ab1bdc105ca66e04018c68c5ab695c0aa7e41
+>>>>>>> bd5ac6c9426d3626bb471e701c0323292bcfba24
     }
   },
   "schedule": {
@@ -849,11 +907,18 @@
     "maxWaitTime": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg\\config\\config.default.js",
     "responseTimeout": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg\\config\\config.default.js"
   },
-<<<<<<< HEAD
   "onClientError": "C:\\Users\\hh\\Desktop\\dangdang\\server\\node_modules\\egg\\config\\config.default.js"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 =======
   "onClientError": "C:\\Users\\Administrator\\Desktop\\app\\dangdang\\server\\node_modules\\egg\\config\\config.default.js"
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 >>>>>>> 9bd22f39ac526030609e7e41bddde83d5c2c626a
 >>>>>>> d1fd21aac9249b6bd10dbfadac179871dda1f15e
+>>>>>>> 84c21b8a9e265447b8b197f0de672e093698cf78
+>>>>>>> 816ab1bdc105ca66e04018c68c5ab695c0aa7e41
+>>>>>>> 55d91213de794bb3b620ea34b8f8dc2a931c9e67
+>>>>>>> bd5ac6c9426d3626bb471e701c0323292bcfba24
 }

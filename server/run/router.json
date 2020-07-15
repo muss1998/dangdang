@@ -15,8 +15,6 @@
   {
     "name": null,
     "methods": [
-<<<<<<< HEAD
-=======
       "POST"
     ],
     "paramNames": [],
@@ -29,7 +27,67 @@
   {
     "name": null,
     "methods": [
->>>>>>> 9bd22f39ac526030609e7e41bddde83d5c2c626a
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/car",
+    "regexp": "/^\\/car(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/addDetail",
+    "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/tocar",
+    "regexp": "/^\\/tocar(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/detailpl",
+    "regexp": "/^\\/detailpl(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/uploadImg",
+    "regexp": "/^\\/uploadImg(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "POST"
     ],
     "paramNames": [],
@@ -42,11 +100,12 @@
   {
     "name": null,
     "methods": [
-      "POST"
+      "HEAD",
+      "GET"
     ],
     "paramNames": [],
-    "path": "/car",
-    "regexp": "/^\\/car(?:\\/(?=$))?$/",
+    "path": "/allbooks",
+    "regexp": "/^\\/allbooks(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -117,8 +176,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/car",
