@@ -23,7 +23,6 @@
           <el-button type="primary" round class="loginbtn" @click="login">登录</el-button>
           <br />
           <div class="register-box">
-            <a href="#" class="forget">忘记密码</a>
             <span class="register-text">还没有账号？</span>
             <router-link to="/register" class="Toregister"><span class="register-btn">前往注册</span></router-link>
           </div>
@@ -181,11 +180,6 @@ export default {
   margin-bottom: 60px;
 }
 
-.forget {
-  color: #409eff;
-  margin-right: 100px;
-  text-decoration: none;
-}
 .register-box {
   margin-bottom: 100px;
 }
