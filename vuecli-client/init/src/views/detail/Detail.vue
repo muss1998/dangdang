@@ -162,7 +162,7 @@
 				value1: null,
 				goodstail: {},
 				num:1,
-				gid:"",
+				gid:2,
 				activeName: 'first'
 			}
 		},
@@ -195,8 +195,8 @@
 			tocar() {
 				var  num = this.num
 				
-				var url1 =`http://localhost:7001/tocar?num=${num}&gid=${this.gid}`
-				axios.get(url1).then((res) => {
+				var url1 =`http://localhost:7001/tocar`
+				axios.post(url1,{num:num,gid:this.gid},{ withCredentials: true }).then((res) => {
 					console.log(res)
 					console.log(res.data)
 					if(res.data.code==4000){
@@ -214,8 +214,9 @@
 			// console.log(this.$route.query.id)
 			//将id传给后端请求商品数据
 			// var gid = this.$route.query.gid
-			var gid = 2
-			this.gid=this.$route.query.gid
+			var gid = this.gid
+			// this.gid=this.$route.query.gid
+			console.log(this.gid)
 			var url = "http://localhost:7001/addDetail?gid=" + gid
 			axios.get(url).then((res) => {
 				// console.log(res)
