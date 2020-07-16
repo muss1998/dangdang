@@ -12,6 +12,45 @@ module.exports = app => {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+<<<<<<< HEAD
+  //雷香
+  
+  router.get('/todetail', controller.todetail.todetail);
+  // router.get('/', controller.home.index);
+//雷香1、商品详情
+ 
+//雷香2、添加到购物车
+  
+
+ 
+=======
+	//雷香
+
+	// router.get('/', controller.home.index);
+	//雷香1、商品详情
+	router.get('/addDetail', controller.detail.addDetail);
+	//雷香2、添加到购物车
+	router.post('/tocar', controller.tocar.tocar);
+
+	router.post('/car', controller.car.getCar); //购物车
+>>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
+
+
+	router.get('/addDetail', controller.detail.addDetail); //商品详情
+	router.post('/tocar', controller.tocar.tocar); //添加到购物车
+	router.post('/detailpl', controller.detail.detailpl); //添加评论
+	router.post('/uploadImg', controller.detail.uploadImg); //上传图片到服务器并保存
+	router.post('/showpl',controller.detail.showpl)
+
+
+
+
+
+>>>>>>> 9cc259bf8212d45cf4030a70030e57d2bd579d56
 	//罗燕力1、管理员登录 ruleForm: {pass: "",checkPass: "", name: ""}
 	router.post('/administratorLogin', controller.administrator.administratorLogin);
 	//罗燕力2、管理员得到所有书籍 - 按条目数

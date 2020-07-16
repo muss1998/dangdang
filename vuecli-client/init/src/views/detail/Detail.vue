@@ -326,12 +326,8 @@
 							<el-tabs type="border-card">
 								<!-- 将评论的信息全部显示出来************************************************************************************************************ -->
 								<el-tab-pane label="全部()">
-									<detailpl></detailpl>
+									<detailpl v-for="(item,index) in arr" :key="index" :goodsObj='item'></detailpl>
 								</el-tab-pane>
-
-
-
-
 								<el-tab-pane label="好评()">好评（）</el-tab-pane>
 								<el-tab-pane label="中评()">中评</el-tab-pane>
 								<el-tab-pane label="差评()">差评（）</el-tab-pane>
@@ -365,7 +361,9 @@
 				flag: false,
 				// flag1:"false"
 				msg: "",
-				img:""
+				img:"",
+				arr:[],
+				arguments:""
 
 			}
 		},
@@ -383,7 +381,15 @@
 			// 		})
 			// 	}
 			// }
+<<<<<<< HEAD
+			uploadimg(){
+				console.log(1111111)
+			
+			
+			},
+=======
 
+>>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
 			handleRemove(file, fileList) {
 				console.log(file, fileList);
 			},
@@ -396,6 +402,8 @@
 			uploadimg(){
 				console.log("success")
 				console.log(arguments)
+				this.arguments =arguments[0].data.src
+		
 			},
 			vshow() {
 				// this.flag = true
@@ -404,22 +412,26 @@
 			tijao() {
 				console.log(this.value)
 				this.flag = false
+				// console.log(arguments[0].data.src)
 				var url3 = `http://localhost:7001/detailpl`
 				axios.post(url3, {
-					value: this.value,
+					img:this.arguments,
+					score: this.value,
 					gid: this.gid,
-					msg:this.msg
+					comments:this.msg
 				}, {
 					withCredentials: true
 				}).then((res) => {
 					console.log(res)
-					console.log(res.data)
-					if (res.data.code == 4000) {
-						alert("没有登录，请登录！")
-						this.$router.push({
-							path: `/login?from:this.$route.path`,
+					// console.log(res.data)
+					if (res.data.code == 200) {
+						alert("添加成功！")
+						// this.$router.push({
+						// 	path: `/login?from:this.$route.path`,
 
-						})
+						// })
+					}else if(res.data.code == 300){
+						alert("添加失败！")
 					}
 				})
 
@@ -442,6 +454,7 @@
 				}
 			},
 			tocar() {
+			
 				var num = this.num
 
 				var url1 = `http://localhost:7001/tocar`
@@ -473,10 +486,25 @@
 			var gid = this.gid
 			// this.gid=this.$route.query.gid
 			var url = "http://localhost:7001/addDetail?gid=" + gid
-			axios.get(url).then((res) => {
+			axios.get(url,{
+					withCredentials: true
+				}).then((res) => {
 				// console.log(res)
 				this.goodstail = res.data[0]
+				console.log(res.data[0])
 			})
+			
+			// var url4 = `http://localhost:7001/todetail`
+			// axios.get(url).then((res) => {
+			// 	// console.log(res)
+			// 	this.arr = res.data
+			// 	console.log(res.data)
+			// })
+			
+			
+			
+			// *******************找uid
+
 		},
 		components: {
 			detailpl: () => import("@/views/detailpl/detailpl")

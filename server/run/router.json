@@ -6,6 +6,7 @@
       "GET"
     ],
     "paramNames": [],
+<<<<<<< HEAD
     "path": "/addDetail",
     "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
     "stack": [
@@ -34,6 +35,10 @@
     "paramNames": [],
     "path": "/car",
     "regexp": "/^\\/car(?:\\/(?=$))?$/",
+=======
+    "path": "/todetail",
+    "regexp": "/^\\/todetail(?:\\/(?=$))?$/",
+>>>>>>> 9cc259bf8212d45cf4030a70030e57d2bd579d56
     "stack": [
       "wrappedController"
     ]

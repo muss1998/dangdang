@@ -1675,6 +1675,7 @@ hostname: DESKTOP-PN27GPC
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 2020-07-15 17:00:22,943 ERROR 3948 [-/::1/-/998ms POST /getallusers] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'dangdang.users' doesn't exist
     at Query.Sequence._packetToError (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
     at Query.ErrorPacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
@@ -1856,6 +1857,22 @@ name: "ER_BAD_FIELD_ERRORError"
 pid: 2944
 hostname: DESKTOP-6BKTIMC
 =======
+2020-07-15 19:29:49,208 ERROR 12692 [-/::1/-/61ms POST /detailpl] nodejs.TypeError: this.ctx.service.detail.detailpl is not a function
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:15:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 12692
+hostname: DESKTOP-PN27GPC
+>>>>>>> 9cc259bf8212d45cf4030a70030e57d2bd579d56
+=======
 2020-07-15 16:10:54,365 ERROR 8620 [-/::1/-/56ms POST /detailpl] nodejs.TypeError: this.ctx.service.detail.detailpl is not a function
     at DetailController.detailpl (C:\Users\hh\Desktop\dangdang\server\app\controller\detail.js:15:45)
     at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
@@ -1885,5 +1902,919 @@ hostname: DESKTOP-M4K67PD
 headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
 pid: 8620
 hostname: DESKTOP-M4K67PD
+<<<<<<< HEAD
 >>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
+=======
+>>>>>>> 493bf6e5c233c7d63691d4ff3aec69e93f27cbfb
+
+2020-07-16 11:10:58,030 ERROR 15592 [-/::1/-/257ms POST /uploadImg] nodejs.TypeError: Cannot read property '0' of undefined
+    at DetailController.uploadImg (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:26:33)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15592
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 11:13:09,348 ERROR 15592 [-/::1/-/4ms POST /uploadImg] nodejs.TypeError: Cannot read property '0' of undefined
+    at DetailController.uploadImg (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:26:33)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15592
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 11:14:06,342 ERROR 15592 [-/::1/-/1ms POST /uploadImg] nodejs.TypeError: Cannot read property '0' of undefined
+    at DetailController.uploadImg (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:26:33)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15592
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 11:16:11,846 ERROR 15592 [-/::1/-/1ms POST /uploadImg] nodejs.TypeError: Cannot read property '0' of undefined
+    at DetailController.uploadImg (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:26:33)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15592
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 11:18:53,078 ERROR 15592 [-/::1/-/2ms POST /uploadImg] nodejs.TypeError: Cannot read property '0' of undefined
+    at DetailController.uploadImg (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:26:33)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15592
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 11:20:34,520 ERROR 15592 [-/::1/-/1ms POST /uploadImg] nodejs.TypeError: Cannot read property '0' of undefined
+    at DetailController.uploadImg (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:26:33)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15592
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 11:32:11,272 ERROR 18008 [-/::1/-/37ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:12:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:15:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 18008
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:17:50,035 ERROR 1332 [-/::1/-/716ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:14:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:15:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 1332
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:19:45,139 ERROR 13656 [-/::1/-/44ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:14:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:15:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 13656
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:24:56,109 ERROR 17876 [-/::1/-/26ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:14:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:15:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17876
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:28:34,065 ERROR 8952 [-/::1/-/47ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:14:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:17:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 8952
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:31:28,062 ERROR 23404 [-/::1/-/247ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:14:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:16:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23404
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:31:53,104 ERROR 23404 [-/::1/-/11ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:14:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:16:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23404
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:34:17,069 ERROR 19464 [-/::1/-/388ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:14:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:17:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 19464
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:40:26,272 ERROR 9272 [-/::1/-/53ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:14:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:17:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 9272
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:42:45,740 ERROR 9272 [-/::1/-/15ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:14:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:17:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 9272
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:46:02,683 ERROR 17180 [-/::1/-/106ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:17:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17180
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:47:06,772 ERROR 15748 [-/::1/-/50ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:17:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15748
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:48:45,358 ERROR 12380 [-/::1/-/58ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 12380
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:49:59,051 ERROR 6684 [-/::1/-/74ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 6684
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:51:21,687 ERROR 19208 [-/::1/-/54ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 19208
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:55:36,121 ERROR 7980 [-/::1/-/49ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7980
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:56:09,449 ERROR 5552 [-/::1/-/36ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 5552
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 12:57:41,662 ERROR 17532 [-/::1/-/36ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17532
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 13:01:22,613 ERROR 17532 [-/::1/-/8ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17532
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:28:19,280 ERROR 21024 [-/::1/-/703ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 21024
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:30:28,924 ERROR 15992 [-/::1/-/109ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:86)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15992
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:34:01,608 ERROR 14912 [-/::1/-/65ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 14912
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:34:58,446 ERROR 8608 [-/::1/-/46ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 8608
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:37:09,734 ERROR 21636 [-/::1/-/69ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 21636
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:39:52,331 ERROR 15932 [-/::1/-/173ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15932
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:41:51,815 ERROR 19556 [-/::1/-/408ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 19556
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:45:19,012 ERROR 2620 [-/::1/-/42ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 2620
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:48:28,574 ERROR 2620 [-/::1/-/11ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 2620
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:49:37,813 ERROR 17476 [-/::1/-/79ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17476
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:52:43,169 ERROR 17476 [-/::1/-/9ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:16:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17476
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:53:57,333 ERROR 6412 [-/::1/-/30ms POST /detailpl] nodejs.ReferenceError: hhh is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:19:5)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:19:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 6412
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:55:26,376 ERROR 6412 [-/::1/-/7ms POST /detailpl] nodejs.ReferenceError: hhh is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:19:5)
+    at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:19:45)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 6412
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 14:56:22,916 ERROR 13228 [-/::1/-/40ms POST /detailpl] nodejs.ReferenceError: hhh is not defined
+    at DetailService.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\service\detail.js:18:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 13228
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:12:48,235 ERROR 21308 [-/::1/-/35ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (gid,uid,comments,score,pjimg) values (2,9,"    const data = await this.app.mysql.query(sql);
+",3,"http://localhost:7001/public/upload/06bc0b88-37d6-48ad-8be7-b2684a62981d.png)"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments (gid,uid,comments,score,pjimg) values (2,9,\"    const data = await this.app.mysql.query(sql);\n\",3,\"http://localhost:7001/public/upload/06bc0b88-37d6-48ad-8be7-b2684a62981d.png)\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 21308
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:15:49,470 ERROR 18528 [-/::1/-/38ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '${obj.comments}",${obj.score},"${obj.img})"`",3,"http://localhost:7001/public/up' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (gid,uid,comments,score,pjimg) values (2,9,"`insert into comments (gid,uid,comments,score,pjimg) values (${obj.gid},${sql3[0].uid},"${obj.comments}",${obj.score},"${obj.img})"`",3,"http://localhost:7001/public/upload/f30dc7be-3505-4a3c-92a0-cc2d8727c29a.png)"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '${obj.comments}\",${obj.score},\"${obj.img})\"`\",3,\"http://localhost:7001/public/up' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments (gid,uid,comments,score,pjimg) values (2,9,\"`insert into comments (gid,uid,comments,score,pjimg) values (${obj.gid},${sql3[0].uid},\"${obj.comments}\",${obj.score},\"${obj.img})\"`\",3,\"http://localhost:7001/public/upload/f30dc7be-3505-4a3c-92a0-cc2d8727c29a.png)\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 18528
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:18:06,158 ERROR 18528 [-/::1/-/8ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '${obj.comments}",${obj.score},"${obj.img})"`",3,")"' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (gid,uid,comments,score,pjimg) values (2,9,"`insert into comments (gid,uid,comments,score,pjimg) values (${obj.gid},${sql3[0].uid},"${obj.comments}",${obj.score},"${obj.img})"`",3,")"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '${obj.comments}\",${obj.score},\"${obj.img})\"`\",3,\")\"' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments (gid,uid,comments,score,pjimg) values (2,9,\"`insert into comments (gid,uid,comments,score,pjimg) values (${obj.gid},${sql3[0].uid},\"${obj.comments}\",${obj.score},\"${obj.img})\"`\",3,\")\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 18528
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:18:35,086 ERROR 8848 [-/::1/-/33ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{obj.score},"${obj.img})"`",3,"http://local",3,"http://localhost:7001/public/upl' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments(gid,uid,comments,score,pjimg) values (2,9,"'${obj.comments}",${obj.score},"${obj.img})"`",3,"http://local",3,"http://localhost:7001/public/upload/49a15dcf-fce6-4563-8f96-8a2871df4898.png)"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{obj.score},\"${obj.img})\"`\",3,\"http://local\",3,\"http://localhost:7001/public/upl' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments(gid,uid,comments,score,pjimg) values (2,9,\"'${obj.comments}\",${obj.score},\"${obj.img})\"`\",3,\"http://local\",3,\"http://localhost:7001/public/upload/49a15dcf-fce6-4563-8f96-8a2871df4898.png)\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 8848
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:21:43,818 ERROR 1944 [-/::1/-/37ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments(gid,uid,comments,score,pjimg) values (2,9,"pjimg",3,"http://localhost:7001/public/upload/f86ca5a0-2db2-4e3c-a1b6-8b349ba2ffa9.png)"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments(gid,uid,comments,score,pjimg) values (2,9,\"pjimg\",3,\"http://localhost:7001/public/upload/f86ca5a0-2db2-4e3c-a1b6-8b349ba2ffa9.png)\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 1944
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:22:37,926 ERROR 16320 [-/::1/-/32ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments(gid,uid,comments,score,pjimg) values (2,9,"sql3[0].uid",0,"http://localhost:7001/public/upload/a5dcce27-283a-4d47-99c1-bb10097f3986.png)"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments(gid,uid,comments,score,pjimg) values (2,9,\"sql3[0].uid\",0,\"http://localhost:7001/public/upload/a5dcce27-283a-4d47-99c1-bb10097f3986.png)\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 16320
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:25:16,320 ERROR 16320 [-/::1/-/11ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments(gid,uid,comments,score,pjimg) values (2,9,"sql3[0].uid",5,")"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments(gid,uid,comments,score,pjimg) values (2,9,\"sql3[0].uid\",5,\")\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 16320
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:25:54,483 ERROR 4764 [-/::1/-/38ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (gid,uid,comments,score,pjimg) values (2,9,"hguy",5,"http://localhost:7001/public/upload/aaeed611-52ee-4739-b258-8220ff97f141.png)"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments (gid,uid,comments,score,pjimg) values (2,9,\"hguy\",5,\"http://localhost:7001/public/upload/aaeed611-52ee-4739-b258-8220ff97f141.png)\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 4764
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:31:59,395 ERROR 4764 [-/::1/-/11533ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (gid,uid,comments,score,pjimg) values (2,9,"jgjfgj",5,"http://localhost:7001/public/upload/1ec0f0d4-5a25-493b-9e5f-c07e0c602e31.png)"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments (gid,uid,comments,score,pjimg) values (2,9,\"jgjfgj\",5,\"http://localhost:7001/public/upload/1ec0f0d4-5a25-493b-9e5f-c07e0c602e31.png)\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 4764
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:32:59,819 ERROR 5828 [-/::1/-/70ms POST /detailpl] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (gid,uid,comments,score,pjimg) values (2,9,"hgfgh",3,"http://localhost:7001/public/upload/942c0e9f-c4a0-41f3-9df4-eb9dd6255686.png")
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '0' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "insert into comments (gid,uid,comments,score,pjimg) values (2,9,\"hgfgh\",3,\"http://localhost:7001/public/upload/942c0e9f-c4a0-41f3-9df4-eb9dd6255686.png\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_DUP_ENTRYError"
+pid: 5828
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:34:38,598 ERROR 5828 [-/::1/-/6930ms POST /detailpl] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (gid,uid,comments,score,pjimg) values (2,9,"cffgghh",3,"http://localhost:7001/public/upload/babbcc4f-1c1d-46b6-b773-692b5a72420b.png")
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '0' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "insert into comments (gid,uid,comments,score,pjimg) values (2,9,\"cffgghh\",3,\"http://localhost:7001/public/upload/babbcc4f-1c1d-46b6-b773-692b5a72420b.png\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_DUP_ENTRYError"
+pid: 5828
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:35:00,201 ERROR 14112 [-/::1/-/34ms POST /detailpl] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (gid,uid,comments,score,pjimg) values (2,9,"Duplicate entry '0' for key 'PRIMARY'",2,"http://localhost:7001/public/upload/01fc46b4-6edc-4076-8889-71eea3ca0717.png")
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '0' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "insert into comments (gid,uid,comments,score,pjimg) values (2,9,\"Duplicate entry '0' for key 'PRIMARY'\",2,\"http://localhost:7001/public/upload/01fc46b4-6edc-4076-8889-71eea3ca0717.png\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_DUP_ENTRYError"
+pid: 14112
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:36:35,092 ERROR 14112 [-/::1/-/8055ms POST /detailpl] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (gid,uid,comments,score,pjimg) values (2,9,"sql3[0].uid",3,"http://localhost:7001/public/upload/f9a4fd58-d5a7-47b7-a576-c649dcd068a8.png")
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '0' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "insert into comments (gid,uid,comments,score,pjimg) values (2,9,\"sql3[0].uid\",3,\"http://localhost:7001/public/upload/f9a4fd58-d5a7-47b7-a576-c649dcd068a8.png\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_DUP_ENTRYError"
+pid: 14112
+hostname: DESKTOP-PN27GPC
+
+2020-07-16 15:36:50,117 ERROR 23184 [-/::1/-/38ms POST /detailpl] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (gid,uid,comments,score,pjimg) values (2,9,"sql3[0].uid",3,"http://localhost:7001/public/upload/183d3fc3-dc4e-4c9e-8a7b-f2a9e6e1edf2.png")
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '0' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "insert into comments (gid,uid,comments,score,pjimg) values (2,9,\"sql3[0].uid\",3,\"http://localhost:7001/public/upload/183d3fc3-dc4e-4c9e-8a7b-f2a9e6e1edf2.png\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_DUP_ENTRYError"
+pid: 23184
+hostname: DESKTOP-PN27GPC
+>>>>>>> 9cc259bf8212d45cf4030a70030e57d2bd579d56
 
