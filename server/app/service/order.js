@@ -13,5 +13,5 @@ class OrderService extends Service {
 		result3:result3,
 		
 	}
-}
+}}
 module.exports = OrderService; 
