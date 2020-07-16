@@ -1844,6 +1844,7 @@ hostname: DESKTOP-PN27GPC
 =======
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 
+<<<<<<< HEAD
 2020-07-15 16:56:32,145 ERROR 11560 nodejs.unhandledExceptionError: read ECONNRESET
     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
 errno: "ECONNRESET"
@@ -2002,21 +2003,35 @@ hostname: DESKTOP-6BKTIMC
 
 2020-07-15 18:51:25,393 ERROR 5992 nodejs.ServerNoResponseError: server 127.0.0.1:62973 no response in 39998ms, maybe the socket is end on the other side. (address: 127.0.0.1:62973)
     at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+=======
+<<<<<<< HEAD
+2020-07-15 11:25:01,361 ERROR 35960 nodejs.ServerNoResponseError: server 127.0.0.1:54484 no response in 39963ms, maybe the socket is end on the other side. (address: 127.0.0.1:54484)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\hh\Desktop\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+>>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
     at ontimeout (timers.js:425:11)
     at tryOnTimeout (timers.js:289:5)
     at listOnTimeout (timers.js:252:5)
     at Timer.processTimers (timers.js:212:10)
 name: "ServerNoResponseError"
+<<<<<<< HEAD
 pid: 5992
 hostname: DESKTOP-6BKTIMC
 
 2020-07-15 18:52:04,398 ERROR 16040 nodejs.ClusterClientNoResponseError: client no response in 98643ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+=======
+pid: 35960
+hostname: DESKTOP-M4K67PD
+
+2020-07-15 11:29:29,418 ERROR 22560 nodejs.ClusterClientNoResponseError: client no response in 328001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\hh\Desktop\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+>>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
     at ontimeout (timers.js:425:11)
     at tryOnTimeout (timers.js:289:5)
     at listOnTimeout (timers.js:252:5)
     at Timer.processTimers (timers.js:212:10)
 name: "ClusterClientNoResponseError"
+<<<<<<< HEAD
 pid: 16040
 hostname: DESKTOP-6BKTIMC
 
@@ -2055,11 +2070,81 @@ pid: 2944
 hostname: DESKTOP-6BKTIMC
 
 2020-07-16 09:27:08,818 ERROR 6324 nodejs.unhandledExceptionError: read ECONNRESET
+=======
+pid: 22560
+hostname: DESKTOP-M4K67PD
+=======
+2020-07-15 11:43:48,708 ERROR 3624 nodejs.unhandledExceptionError: read ECONNRESET
     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
 errno: "ECONNRESET"
 code: "ECONNRESET"
 syscall: "read"
 name: "unhandledExceptionError"
+pid: 3624
+hostname: DESKTOP-PN27GPC
+
+2020-07-15 14:26:10,677 ERROR 3624 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3624
+hostname: DESKTOP-PN27GPC
+
+2020-07-15 15:31:21,129 ERROR 3624 nodejs.unhandledExceptionError: read ECONNRESET
+>>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+<<<<<<< HEAD
 pid: 6324
 hostname: DESKTOP-6BKTIMC
+=======
+pid: 3624
+hostname: DESKTOP-PN27GPC
+>>>>>>> 816ab1bdc105ca66e04018c68c5ab695c0aa7e41
+
+2020-07-15 16:10:54,351 ERROR 8620 [-/::1/-/56ms POST /detailpl] nodejs.TypeError: this.ctx.service.detail.detailpl is not a function
+    at DetailController.detailpl (C:\Users\hh\Desktop\dangdang\server\app\controller\detail.js:15:45)
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 8620
+hostname: DESKTOP-M4K67PD
+
+2020-07-15 16:11:23,572 ERROR 8620 [-/::1/-/19ms POST /detailpl] nodejs.TypeError: this.ctx.service.detail.detailpl is not a function
+    at DetailController.detailpl (C:\Users\hh\Desktop\dangdang\server\app\controller\detail.js:15:45)
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 8620
+hostname: DESKTOP-M4K67PD
+
+2020-07-15 16:14:33,358 ERROR 8620 nodejs.ServerNoResponseError: server 127.0.0.1:50447 no response in 39998ms, maybe the socket is end on the other side. (address: 127.0.0.1:50447)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\hh\Desktop\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ServerNoResponseError"
+pid: 8620
+hostname: DESKTOP-M4K67PD
+>>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
 

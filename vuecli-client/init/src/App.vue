@@ -16,11 +16,10 @@
     <Storeone></Storeone>
     <Onlyapply></Onlyapply>
 
+  <div>
     <router-view></router-view>
   </div>
 </template>
-
-
 <script>
 export default {
   data() {
@@ -46,3 +45,13 @@ export default {
 </style>
 
 
+  data(){
+    return{
+
+    }
+  }
+}
+</script>
+<style scoped>
+  
+</style>

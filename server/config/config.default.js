@@ -35,6 +35,10 @@ module.exports = appInfo => {
       ignoreJSON: true,
     }
   };
+  
+  config.multipart = {
+    mode: 'file'
+  };
   //session配置
   config.session = {
     key: 'EGG_SESS',
