@@ -57,28 +57,26 @@
         </div>
         <div class="levelone">
           <span></span>
-        </div>
-Aside
+        </div>Aside
       </el-aside>
 
-      <el-main class="mid" >
-        <div class="lunbo"></div>
+      <el-main class="mid">
+        <div class="lunbo">
+          <Lunbo></Lunbo>
+        </div>
 
         <div class="titlebooks">
-        <img src="../../img/xinshushangjia.png" alt="" width="750px"></div>
+          <img src="../../img/xinshushangjia.png" alt width="750px" />
+        </div>
 
-        <div class="books">
-        这里用弹性盒子拿到后端的书籍信息进行循环添加商品信息
-        
-        </div>Main
+        <div class="books">这里用弹性盒子拿到后端的书籍信息进行循环添加商品信息</div>Main
       </el-main>
 
       <el-aside class="right" width="244px">
-      <div class="activelife"></div>
-      <div class="ordersell"></div>
-      <div class="hoticon"></div>
-      <div class="hotbooks"></div>
-      
+        <div class="activelife"></div>
+        <div class="ordersell"></div>
+        <div class="hoticon"></div>
+        <div class="hotbooks"></div>
       </el-aside>
     </el-container>
   </div>
@@ -86,10 +84,11 @@ Aside
 
 <script>
 export default {
- data() {
-    return {
-      
-    }
+  data() {
+    return {};
+  },
+  components: {
+    Lunbo: () => import("@/components/Lunbo")
   }
 };
 </script>
@@ -99,7 +98,6 @@ export default {
   padding: 0;
   flex: 0;
   flex-basis: 750px;
-
 }
 .Storeone {
   width: 1200px;
@@ -123,17 +121,15 @@ export default {
 .Storeone .mid .lunbo {
   width: 752px;
   height: 315px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
-.Storeone .mid .titlebooks{
-    width: 808px;
-    height: 43px;
-    border-bottom: 2px solid black;
-    margin-top: 5px;
-    margin-bottom: 5px;
-   
+.Storeone .mid .titlebooks {
+  width: 808px;
+  height: 43px;
+  border-bottom: 2px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-
 
 .Storeone .left .levelone {
   border: 1px solid #487a6f;
@@ -165,26 +161,26 @@ export default {
   height: 876px;
   width: 188px;
 }
-.Storeone .right .activelife{
-    width: 240px;
-    height: 110px;
-    border: 1px solid black;
+.Storeone .right .activelife {
+  width: 240px;
+  height: 110px;
+  border: 1px solid black;
 }
-.Storeone .right .ordersell{
-    width: 240px;
-    height: 193px;
-    border: 1px solid black;
-    margin-top: 9px;
-    margin-bottom: 4px;
+.Storeone .right .ordersell {
+  width: 240px;
+  height: 193px;
+  border: 1px solid black;
+  margin-top: 9px;
+  margin-bottom: 4px;
 }
-.Storeone .right .hoticon{
-    width: 240px;
-    height: 40px;
-    border: 1px solid black;
+.Storeone .right .hoticon {
+  width: 240px;
+  height: 40px;
+  border: 1px solid black;
 }
-.Storeone .right .hotbooks{
-    width: 238px;
-    height: 510px;
-    border: 1px solid red;
+.Storeone .right .hotbooks {
+  width: 238px;
+  height: 510px;
+  border: 1px solid red;
 }
 </style>

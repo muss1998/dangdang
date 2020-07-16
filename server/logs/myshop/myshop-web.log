@@ -1675,6 +1675,188 @@ hostname: DESKTOP-PN27GPC
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+2020-07-15 17:00:22,943 ERROR 3948 [-/::1/-/998ms POST /getallusers] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'dangdang.users' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: select * from users
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'dangdang.users' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "select * from users"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 3948
+hostname: DESKTOP-6BKTIMC
+
+2020-07-15 17:00:40,138 ERROR 3948 [-/::1/-/8ms POST /getallusers] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'dangdang.users' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: select * from users
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'dangdang.users' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "select * from users"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 3948
+hostname: DESKTOP-6BKTIMC
+
+2020-07-15 17:01:38,332 ERROR 3948 [-/::1/-/4ms POST /getallusers] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'dangdang.users' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: select * from users
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'dangdang.users' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "select * from users"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 3948
+hostname: DESKTOP-6BKTIMC
+
+2020-07-15 18:48:11,185 ERROR 13652 [-/::1/-/287ms POST /changeusers] nodejs.ReferenceError: log is not defined
+    at AdministratorController.changeusers (C:\Users\wo\Desktop\project\dangdang\server\app\controller\administrator.js:49:5)
+    at Object.callFn (C:\Users\wo\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\wo\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\wo\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\wo\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 13652
+hostname: DESKTOP-6BKTIMC
+
+2020-07-15 18:49:04,375 ERROR 13652 [-/::1/-/7ms POST /changeusers] nodejs.ReferenceError: log is not defined
+    at AdministratorController.changeusers (C:\Users\wo\Desktop\project\dangdang\server\app\controller\administrator.js:49:5)
+    at Object.callFn (C:\Users\wo\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\wo\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\wo\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\wo\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 13652
+hostname: DESKTOP-6BKTIMC
+
+2020-07-15 18:50:01,573 ERROR 7892 [-/::1/-/137ms POST /changeusers] nodejs.TypeError: this.ctx.service.administrator.changeusers is not a function
+    at AdministratorController.changeusers (C:\Users\wo\Desktop\project\dangdang\server\app\controller\administrator.js:50:53)
+    at Object.callFn (C:\Users\wo\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\wo\Desktop\project\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\wo\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\wo\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7892
+hostname: DESKTOP-6BKTIMC
+
+2020-07-15 19:08:02,108 ERROR 2944 [-/::1/-/41ms POST /changeusers] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '是' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: update user set blacklist=是 where uid=1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '是' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "update user set blacklist=是 where uid=1"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 2944
+hostname: DESKTOP-6BKTIMC
+=======
 2020-07-15 19:29:49,208 ERROR 12692 [-/::1/-/61ms POST /detailpl] nodejs.TypeError: this.ctx.service.detail.detailpl is not a function
     at DetailController.detailpl (C:\Users\leixiang\Desktop\project\dangdang\server\app\controller\detail.js:15:45)
     at Object.callFn (C:\Users\leixiang\Desktop\project\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
@@ -1689,6 +1871,7 @@ hostname: DESKTOP-PN27GPC
 headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
 pid: 12692
 hostname: DESKTOP-PN27GPC
+>>>>>>> 9cc259bf8212d45cf4030a70030e57d2bd579d56
 =======
 2020-07-15 16:10:54,365 ERROR 8620 [-/::1/-/56ms POST /detailpl] nodejs.TypeError: this.ctx.service.detail.detailpl is not a function
     at DetailController.detailpl (C:\Users\hh\Desktop\dangdang\server\app\controller\detail.js:15:45)
@@ -1719,6 +1902,9 @@ hostname: DESKTOP-M4K67PD
 headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
 pid: 8620
 hostname: DESKTOP-M4K67PD
+<<<<<<< HEAD
+>>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
+=======
 >>>>>>> 493bf6e5c233c7d63691d4ff3aec69e93f27cbfb
 
 2020-07-16 11:10:58,030 ERROR 15592 [-/::1/-/257ms POST /uploadImg] nodejs.TypeError: Cannot read property '0' of undefined
@@ -2630,6 +2816,7 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-
 name: "ER_DUP_ENTRYError"
 pid: 23184
 hostname: DESKTOP-PN27GPC
+>>>>>>> 9cc259bf8212d45cf4030a70030e57d2bd579d56
 
 2020-07-16 16:18:30,394 ERROR 11332 [-/::1/-/45ms GET /addDetail?gid=2] nodejs.SyntaxError: Identifier 'ctx' has already been declared
     at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
