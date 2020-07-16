@@ -15,7 +15,8 @@ module.exports = app => {
 
 
   //雷香
-
+  
+  router.get('/todetail', controller.todetail.todetail);
   // router.get('/', controller.home.index);
 //雷香1、商品详情
   router.get('/addDetail', controller.detail.addDetail);

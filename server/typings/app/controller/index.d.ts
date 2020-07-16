@@ -8,6 +8,7 @@ import ExportDetail = require('../../../app/controller/detail');
 import ExportMy = require('../../../app/controller/my');
 import ExportMychgkey = require('../../../app/controller/mychgkey');
 import ExportTocar = require('../../../app/controller/tocar');
+import ExportTodetail = require('../../../app/controller/todetail');
 import ExportUser = require('../../../app/controller/user');
 
 declare module 'egg' {
@@ -18,6 +19,7 @@ declare module 'egg' {
     my: ExportMy;
     mychgkey: ExportMychgkey;
     tocar: ExportTocar;
+    todetail: ExportTodetail;
     user: ExportUser;
   }
 }

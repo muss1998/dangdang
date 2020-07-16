@@ -326,12 +326,8 @@
 							<el-tabs type="border-card">
 								<!-- 将评论的信息全部显示出来************************************************************************************************************ -->
 								<el-tab-pane label="全部()">
-									<detailpl></detailpl>
+									<detailpl v-for="(item,index) in arr" :key="index" :goodsObj='item'></detailpl>
 								</el-tab-pane>
-
-
-
-
 								<el-tab-pane label="好评()">好评（）</el-tab-pane>
 								<el-tab-pane label="中评()">中评</el-tab-pane>
 								<el-tab-pane label="差评()">差评（）</el-tab-pane>
@@ -372,7 +368,8 @@
 				flag: false,
 				// flag1:"false"
 				msg: "",
-				img:""
+				img:"",
+				arr:[]
 
 			}
 		},
@@ -485,6 +482,12 @@
 			axios.get(url).then((res) => {
 				// console.log(res)
 				this.goodstail = res.data[0]
+			})
+			
+			var url4 = `http://localhost:7001/todetail`
+			axios.get(url).then((res) => {
+				// console.log(res)
+				this.arr = res.data
 			})
 		},
 		components: {
