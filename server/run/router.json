@@ -15,8 +15,6 @@
   {
     "name": null,
     "methods": [
-<<<<<<< HEAD
-=======
       "POST"
     ],
     "paramNames": [],
@@ -29,7 +27,6 @@
   {
     "name": null,
     "methods": [
->>>>>>> 9bd22f39ac526030609e7e41bddde83d5c2c626a
       "POST"
     ],
     "paramNames": [],
@@ -111,6 +108,44 @@
     "paramNames": [],
     "path": "/searchbooks",
     "regexp": "/^\\/searchbooks(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getallusers",
+    "regexp": "/^\\/getallusers(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/changeusers",
+    "regexp": "/^\\/changeusers(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/allusers",
+    "regexp": "/^\\/allusers(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

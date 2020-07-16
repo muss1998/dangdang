@@ -52,6 +52,9 @@
       <el-tab-pane label="操作书籍">
         <Edit></Edit>
       </el-tab-pane>
+        <el-tab-pane label="管理用户">
+        <Info></Info>
+      </el-tab-pane>
     </el-tabs>
   </div>
 </template>
@@ -60,12 +63,15 @@
 // @ is an alias to /src
 import Add from "@/views/Add.vue";
 import Edit from "@/views/Edit.vue";
+import Info from "@/views/Info.vue";
+
 import axios from "axios";
 export default {
   name: "Nav",
   components: {
     Add,
-    Edit
+    Edit,
+    Info
   },
   data() {
     return {
