@@ -14,6 +14,7 @@
             v-model="Password"
             placeholder="请输入密码"
             class="login-password"
+           
             show-password
           ></el-input>
           <p :class="warn2"></p>

@@ -21,36 +21,20 @@ module.exports = app => {
   router.post('/deleteCar', controller.mychgkey.deleteCar) //罗婧馨8、删除购物车
 
 
-  
-  router.get('/todetail', controller.todetail.todetail);
+
+
+
+	router.get('/addDetail', controller.detail.addDetail); //雷香1、添加详情
+	router.post('/tocar', controller.tocar.tocar); //雷香2、添加到购物车
+	router.post('/detailpl', controller.detail.detailpl); //雷香3、添加评论
+	router.post('/uploadImg', controller.detail.uploadImg); //雷香4、上传图片到服务器并保存
+	router.post('/showpl',controller.detail.showpl)//雷香5、展示详情
+
+
+
+
+
  
-
-  
-
-
-
-  //雷香
-
-  // router.get('/', controller.home.index);
-  //雷香1、商品详情
-  router.get('/addDetail', controller.detail.addDetail);
-  //雷香2、添加到购物车
-  router.post('/tocar', controller.tocar.tocar); //添加到购物车
-  router.post('/detailpl', controller.detail.detailpl); //添加评论
-  router.post('/uploadImg', controller.detail.uploadImg); //上传图片到服务器并保存
-
-
-  //罗婧馨
-
-  router.post('/order', controller.order.order); //订单结算界面
-
-
-
-
-  //雷磊
-  router.post('/search', controller.user.search); //查看是否有该用户
-  router.post('/login', controller.user.login);
-  router.post('/register', controller.user.register);
 
 
 	//罗燕力1、管理员登录 ruleForm: {pass: "",checkPass: "", name: ""}
@@ -77,16 +61,11 @@ module.exports = app => {
 
 
 
-
-
-
-	//雷香
-
-	// router.get('/', controller.home.index);
-	//雷香1、商品详情
-	//雷香2、添加到购物车
-
-
+	//雷磊
+	router.post('/search', controller.user.search); //查看是否有该用户
+	router.post('/login', controller.user.login);
+	router.post('/register', controller.user.register);
+	router.post('/order', controller.order.order); //订单结算界面
 
 
 };
