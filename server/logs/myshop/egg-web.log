@@ -6551,3 +6551,18 @@ hostname: FH76NJO29HM8FWC
 2020-07-16 12:40:38,540 INFO 6808 [egg-watcher:application] watcher start success
 2020-07-16 12:40:38,545 INFO 6808 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 12:40:39 GMT+0800 (GMT+08:00)
 2020-07-16 12:40:38,567 INFO 6808 [egg:core] dump config after ready, 19ms
+2020-07-16 12:45:33,446 INFO 8024 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\app\\dangdang\\server\\logs\\myshop","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myshop-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-16 12:45:33,489 INFO 8024 [egg-multipart] stream mode enable
+2020-07-16 12:45:33,489 INFO 8024 [egg-mysql] connecting root@192.168.3.234:3306/dangdang
+2020-07-16 12:45:33,637 INFO 8024 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\app\dangdang\server\app\public
+2020-07-16 12:45:33,640 INFO 8024 [egg-security] use methodnoallow middleware
+2020-07-16 12:45:33,641 INFO 8024 [egg-security] use noopen middleware
+2020-07-16 12:45:33,642 INFO 8024 [egg-security] use nosniff middleware
+2020-07-16 12:45:33,643 INFO 8024 [egg-security] use xssProtection middleware
+2020-07-16 12:45:33,643 INFO 8024 [egg-security] use xframe middleware
+2020-07-16 12:45:33,644 INFO 8024 [egg-security] use dta middleware
+2020-07-16 12:45:33,644 INFO 8024 [egg-security] compose 6 middlewares into one security middleware
+2020-07-16 12:45:33,667 INFO 8024 [egg:core] dump config after load, 13ms
+2020-07-16 12:45:33,698 INFO 8024 [egg-watcher:application] watcher start success
+2020-07-16 12:45:33,703 INFO 8024 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 12:45:34 GMT+0800 (GMT+08:00)
+2020-07-16 12:45:33,722 INFO 8024 [egg:core] dump config after ready, 16ms
