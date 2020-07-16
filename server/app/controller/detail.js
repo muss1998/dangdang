@@ -2,22 +2,42 @@
 
 const Controller = require('egg').Controller;
 const fs = require("fs");
-var path=require("path");
+var path = require("path");
 class DetailController extends Controller {
-//返回给前端数据，传入值id
-    async addDetail() {
-      const { ctx } = this;
-      ctx.body = await this.ctx.service.detail.addDetail(ctx.request.query);
-    }
-	
-	async detailpl() {
-	  const { ctx } = this;
-	  let result=await this.ctx.service.detail.detailpl(ctx.request.query);
-	  ctx.body ={
-		  info:"提交成功"
-	  }
+	//返回给前端数据，传入值id
+	async addDetail() {
+		const {
+			ctx
+		} = this;
+		ctx.body = await this.ctx.service.detail.addDetail(ctx.request.query);
 	}
-	
+
+	async detailpl() {
+		const {
+			ctx
+		} = this;
+		let result = await this.ctx.service.detail.detailpl(ctx.request.body);
+		ctx.body = {
+			info: "提交成功"
+		}
+	}
+
+	async showpl() {
+		const {
+			ctx
+		} = this;
+		let result = await this.ctx.service.detail.showpl(ctx.request.body);
+		if(result[0]){
+			ctx.body={
+				data:result
+			}
+		}else{
+			ctx.body={
+				data:"暂无评论"
+			}
+		}
+	}
+
 	async uploadImg() {
 		const {
 			ctx
@@ -25,7 +45,7 @@ class DetailController extends Controller {
 		const dest = '/public/upload/';
 		const file = ctx.request.files[0];
 		console.log(ctx.request.files[0])
-	
+
 		//__dirname---egg-mysql/app/controller     
 		//path.dirname(__dirname)---egg-mysql/app/
 		let to = path.dirname(__dirname) + dest + path.basename(file.filepath);
@@ -41,9 +61,11 @@ class DetailController extends Controller {
 				"src": `http://localhost:${cluster.port}${dest}${path.basename(file.filepath)}`
 			}
 		}
-	
+
 	}
- 
+
+
+
 }
 
 module.exports = DetailController;
