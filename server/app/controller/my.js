@@ -11,6 +11,8 @@ class MyController extends Controller {
         // console.log(this.ctx.session.islogin, "login-----------------------");
         if (this.ctx.session.islogin) {
             // console.log(666666)
+        // console.log(this.ctx.session.islogin, "login-----------------------");
+        if (this.ctx.session.islogin) {
             this.ctx.body = await this.ctx.service.my.getMys({
                 username: this.ctx.session.islogin
             });
@@ -24,10 +26,9 @@ class MyController extends Controller {
 
 
 
-        // console.log(this.ctx.request.body,'body');
-        // this.ctx.body = await this.ctx.service.my.getMys(ctx.request.body);
 
     }
+}
 }
 
 module.exports = MyController;
