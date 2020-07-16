@@ -16,8 +16,9 @@
     <Storeone></Storeone>
     <Onlyapply></Onlyapply>
 
-  <div>
-    <router-view></router-view>
+    <div>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 <script>
@@ -53,5 +54,4 @@ export default {
 }
 </script>
 <style scoped>
-  
 </style>
