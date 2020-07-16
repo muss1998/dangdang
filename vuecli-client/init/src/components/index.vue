@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav"></div>
-    <div>
+    <Header></Header>
+
       <Searchbutton></Searchbutton>
-    </div>
+  
     <Navtop></Navtop>
     <Sub></Sub>
     <Imgfloat></Imgfloat>
@@ -14,6 +14,8 @@
     <Hotauthor></Hotauthor>
      <Threeimg></Threeimg>
      <Maybelike></Maybelike>
+     <Reader></Reader>
+     <footers></footers>
     <router-view></router-view>
   </div>
 </template>
@@ -34,6 +36,8 @@ export default {
     Threeimg: () => import("@/components/Threeimg"),
     Hotauthor: () => import("@/components/Hotauthor"),
     Maybelike: () => import("@/components/Maybelike"),
+    Reader: () => import("@/components/Reader"),
+    footers: () => import("@/components/footers"),
     Searchbutton: () => import("@/components/Searchbutton")
   }
 };

@@ -18,8 +18,14 @@
       "GET"
     ],
     "paramNames": [],
+<<<<<<< HEAD
     "path": "/allbooks",
     "regexp": "/^\\/allbooks(?:\\/(?=$))?$/",
+=======
+<<<<<<< HEAD
+    "path": "/addDetail",
+    "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
+>>>>>>> 86f0f7760edbc45048e56132568cfa71c7f2f04e
     "stack": [
       "wrappedController"
     ]
@@ -52,11 +58,22 @@
   {
     "name": null,
     "methods": [
+<<<<<<< HEAD
+=======
       "POST"
     ],
     "paramNames": [],
+<<<<<<< HEAD
     "path": "/changebooks",
     "regexp": "/^\\/changebooks(?:\\/(?=$))?$/",
+=======
+    "path": "/car",
+    "regexp": "/^\\/car(?:\\/(?=$))?$/",
+=======
+    "path": "/todetail",
+    "regexp": "/^\\/todetail(?:\\/(?=$))?$/",
+>>>>>>> 9cc259bf8212d45cf4030a70030e57d2bd579d56
+>>>>>>> 86f0f7760edbc45048e56132568cfa71c7f2f04e
     "stack": [
       "wrappedController"
     ]
@@ -126,6 +143,7 @@
   {
     "name": null,
     "methods": [
+>>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
       "POST"
     ],
     "paramNames": [],
@@ -228,6 +246,44 @@
     "paramNames": [],
     "path": "/addDetail",
     "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getallusers",
+    "regexp": "/^\\/getallusers(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/changeusers",
+    "regexp": "/^\\/changeusers(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/allusers",
+    "regexp": "/^\\/allusers(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

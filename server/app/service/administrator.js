@@ -3,7 +3,7 @@ class AdministratorService extends Service {
     //罗燕力1、-登录
     async administratorLogin(userinfo) {
         var data = await this.app.mysql.query(`select * from user where username = '${userinfo.name}' and password='${userinfo.pass}'`);
-        if (data[0] && data[0].type == 1) {
+        if (data[0] && data[0].type == 1 && data[0].blacklist != "是") {
             this.ctx.session.administratorname = userinfo.name
             return {
                 code: 1,
@@ -20,7 +20,7 @@ class AdministratorService extends Service {
     //罗燕力2、-首页得到所有商品
     async allbooks(pageNum, num) {
         if (pageNum == undefined) {
-            pageNum = 7;
+            pageNum = 5;
         }
         if (num == undefined) {
             num = 1;
@@ -80,6 +80,36 @@ class AdministratorService extends Service {
     async searchbooks(goodsname) {
         var obj = await this.app.mysql.query(`select * from goods where goodsname like "%${goodsname}%" or "${goodsname}%" or "%${goodsname}"`);
         return obj;
+    }
+    //罗燕力8、管理员得到用户信息（黑名单）
+    async getallusers() {
+        var users = await this.app.mysql.query(`select * from user`);
+        var countID = await this.app.mysql.query(`select count(uid) as totalNum from user`)
+        return {
+            users: users,
+            countID: countID[0].totalNum
+        }
+    }
+    //罗燕力9、管理员修改用户信息（黑名单）
+    async changeusers(users) {
+        var obj = await this.app.mysql.query(`update user set blacklist='${users.blackdata}' where uid=${users.row1.uid}`)
+        return obj;
+    }
+    //罗燕力10、管理员按条目数得到所有用户信息
+    async allusers(pageNum, num) {
+        if (pageNum == undefined) {
+            pageNum = 5;
+        }
+        if (num == undefined) {
+            num = 1;
+        }
+
+        var users = await this.app.mysql.query(`select * from user limit ${pageNum*(num-1)},${pageNum}`);
+        var countID = await this.app.mysql.query(`select count(uid) as totalNum from user`)
+        return {
+            users: users,
+            countID: countID[0].totalNum
+        };
     }
 }
 
