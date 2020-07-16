@@ -2,62 +2,57 @@
   <div class="Storeone">
     <el-container>
       <el-aside class="left" width="190px">
-        <div class="headertop">11111</div>
+        <div class="headertop">图书分类</div>
 
         <div class="levelone">
-          <span></span>
+          <span>特色书单</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>电子书 网络文学</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>教育</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>小说</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>文艺</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>青春文学/动漫 幽默</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>童书</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>人文社科</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>经管</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>成功/励志</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>生活</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>科技</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>英文原版书 港台图书</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>当当出版</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>期刊/音像</span>
         </div>
         <div class="levelone">
-          <span></span>
+          <span>创意文具</span>
         </div>
-        <div class="levelone">
-          <span></span>
-        </div>
-        <div class="levelone">
-          <span></span>
-        </div>
+        
 Aside
       </el-aside>
 
@@ -68,6 +63,7 @@ Aside
         <img src="../../img/xinshushangjia.png" alt="" width="750px"></div>
 
         <div class="books">
+
         这里用弹性盒子拿到后端的书籍信息进行循环添加商品信息
         
         </div>Main
@@ -88,9 +84,18 @@ Aside
 export default {
  data() {
     return {
-      
+      bookname:[]
     }
-  }
+  },
+  components:{
+     books: () => import("@/components/books")
+  },
+  mounted() {
+    axios.get("http://localhost:8080/allbooks").then((res)=>{
+      this.bookname=res.data
+      console.log(res.data)
+    })
+  },
 };
 </script>
 
@@ -136,10 +141,15 @@ export default {
 
 
 .Storeone .left .levelone {
-  border: 1px solid #487a6f;
-  height: 10px;
+  
+  height: 50px;
+   color: #487a6f;
+  font-family: "Microsoft Yahei";
+  font-weight: bold;
+  padding-left: 4px;
 }
 .Storeone .left .levelone span {
+  display: block;
   width: 170px;
   height: 24px;
   display: block;
@@ -154,7 +164,7 @@ export default {
   text-align: center;
   font-size: 18px;
   background: #487a6f;
-  border-radius: 4px 4px 0 0;
+  
   line-height: 34px;
   color: #fff;
   font-family: "Microsoft Yahei";

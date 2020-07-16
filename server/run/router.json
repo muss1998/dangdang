@@ -91,6 +91,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/showpl",
+    "regexp": "/^\\/showpl(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/administratorLogin",
     "regexp": "/^\\/administratorLogin(?:\\/(?=$))?$/",
     "stack": [
@@ -217,6 +229,18 @@
     "paramNames": [],
     "path": "/mychgkey",
     "regexp": "/^\\/mychgkey(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/order",
+    "regexp": "/^\\/order(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

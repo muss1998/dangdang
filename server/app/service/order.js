@@ -14,4 +14,5 @@ class OrderService extends Service {
 		
 	}
 }
+}
 module.exports = OrderService; 
