@@ -15,6 +15,18 @@
   {
     "name": null,
     "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/car",
+    "regexp": "/^\\/car(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
@@ -57,6 +69,18 @@
     "paramNames": [],
     "path": "/uploadImg",
     "regexp": "/^\\/uploadImg(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/showpl",
+    "regexp": "/^\\/showpl(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -193,6 +217,18 @@
     "paramNames": [],
     "path": "/mychgkey",
     "regexp": "/^\\/mychgkey(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/order",
+    "regexp": "/^\\/order(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

@@ -11,6 +11,7 @@ import ExportCar = require('../../../app/service/car');
 import ExportDetail = require('../../../app/service/detail');
 import ExportMy = require('../../../app/service/my');
 import ExportMychgkey = require('../../../app/service/mychgkey');
+import ExportOrder = require('../../../app/service/order');
 import ExportTocar = require('../../../app/service/tocar');
 import ExportTodetail = require('../../../app/service/todetail');
 import ExportUser = require('../../../app/service/user');
@@ -22,6 +23,7 @@ declare module 'egg' {
     detail: AutoInstanceType<typeof ExportDetail>;
     my: AutoInstanceType<typeof ExportMy>;
     mychgkey: AutoInstanceType<typeof ExportMychgkey>;
+    order: AutoInstanceType<typeof ExportOrder>;
     tocar: AutoInstanceType<typeof ExportTocar>;
     todetail: AutoInstanceType<typeof ExportTodetail>;
     user: AutoInstanceType<typeof ExportUser>;

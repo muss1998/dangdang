@@ -7,6 +7,7 @@ import ExportCar = require('../../../app/controller/car');
 import ExportDetail = require('../../../app/controller/detail');
 import ExportMy = require('../../../app/controller/my');
 import ExportMychgkey = require('../../../app/controller/mychgkey');
+import ExportOrder = require('../../../app/controller/order');
 import ExportTocar = require('../../../app/controller/tocar');
 import ExportTodetail = require('../../../app/controller/todetail');
 import ExportUser = require('../../../app/controller/user');
@@ -18,6 +19,7 @@ declare module 'egg' {
     detail: ExportDetail;
     my: ExportMy;
     mychgkey: ExportMychgkey;
+    order: ExportOrder;
     tocar: ExportTocar;
     todetail: ExportTodetail;
     user: ExportUser;

@@ -14,30 +14,22 @@ module.exports = app => {
 
 
 
-<<<<<<< HEAD
   //雷香
   
   router.get('/todetail', controller.todetail.todetail);
   // router.get('/', controller.home.index);
-//雷香1、商品详情
- 
-//雷香2、添加到购物车
   
 
  
-=======
 	//雷香
 
 	// router.get('/', controller.home.index);
+
+
 	//雷香1、商品详情
-	router.get('/addDetail', controller.detail.addDetail);
-	//雷香2、添加到购物车
-	router.post('/tocar', controller.tocar.tocar);
-
 	router.post('/car', controller.car.getCar); //购物车
->>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
 
-
+	//雷香2、添加到购物车
 	router.get('/addDetail', controller.detail.addDetail); //商品详情
 	router.post('/tocar', controller.tocar.tocar); //添加到购物车
 	router.post('/detailpl', controller.detail.detailpl); //添加评论

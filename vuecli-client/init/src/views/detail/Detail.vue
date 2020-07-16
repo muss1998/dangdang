@@ -284,7 +284,7 @@
 							</div>
 							<div>
 								<el-upload class="upload-demo" action="http://localhost:7001/uploadImg" :on-preview="handlePreview" :on-remove="handleRemove"
-								 :before-remove="beforeRemove"  :on-success="uploadimg" multiple :limit="3" :on-exceed="handleExceed" :file-list="fileList">
+								   :on-success="uploadimg" multiple :limit="3" :on-exceed="handleExceed" :file-list="fileList">
 									<el-button size="small" type="primary">点击上传</el-button>
 									<div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
 								</el-upload>
@@ -381,15 +381,14 @@
 			// 		})
 			// 	}
 			// }
-<<<<<<< HEAD
 			uploadimg(){
 				console.log(1111111)
 			
 			
 			},
-=======
 
->>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
+
+
 			handleRemove(file, fileList) {
 				console.log(file, fileList);
 			},
