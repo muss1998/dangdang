@@ -4,8 +4,7 @@ import Login from '../views/Login.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
-  {
+const routes = [{
     path: '/login',
     name: 'Login',
     component: Login
@@ -16,7 +15,7 @@ Vue.use(VueRouter)
     name: 'Register',
     component: () => import('../views/Register.vue')
 
-    
+
   },
   // {
   //   path: '/about',
@@ -28,8 +27,7 @@ Vue.use(VueRouter)
     path: '/detail',
     name: 'detail',
     component: () => import('../views/detail/Detail.vue')
-  }
-  ,
+  },
   {
     path: '/my',
     name: 'My',
@@ -39,6 +37,11 @@ Vue.use(VueRouter)
     path: '/car',
     name: 'Car',
     component: () => import('../views/car/Car.vue')
+  },
+  {
+    path: '/order',
+    name: 'Order',
+    component: () => import('../views/order/Order.vue')
   }
 ]
 
@@ -51,13 +54,13 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   if (to.path == "/my" || to.path == "/car") {
     let flag = window.localStorage.getItem("islogin");
-    if(flag){
+    if (flag) {
       next()
-    }else{
+    } else {
       alert("请先登录")
       next("/login")
     }
-  }else{
+  } else {
     next()
   }
 

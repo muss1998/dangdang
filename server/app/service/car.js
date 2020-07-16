@@ -7,6 +7,7 @@ class CarService extends Service {
         for(let i=0;i<data.length;i++){//根据商品的gid进行循环获取全部商品信息
             result.push(await this.app.mysql.query(`select * from goods where gid=${data[i].gid}`)) 
         }
+        console.log({result})
         return {result,data};
     }
 }

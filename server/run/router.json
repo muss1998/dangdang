@@ -166,6 +166,54 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/mychgimg",
+    "regexp": "/^\\/mychgimg(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/addorder",
+    "regexp": "/^\\/addorder(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/getcar",
+    "regexp": "/^\\/getcar(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/deleteCar",
+    "regexp": "/^\\/deleteCar(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/search",
     "regexp": "/^\\/search(?:\\/(?=$))?$/",
     "stack": [

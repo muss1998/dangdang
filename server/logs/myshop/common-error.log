@@ -1844,3 +1844,420 @@ hostname: DESKTOP-PN27GPC
 =======
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 
+2020-07-15 09:52:02,163 ERROR 6864 nodejs.ServerNoResponseError: server 127.0.0.1:49359 no response in 39975ms, maybe the socket is end on the other side. (address: 127.0.0.1:49359)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ServerNoResponseError"
+pid: 6864
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 09:52:31,797 ERROR 3820 nodejs.ClusterClientNoResponseError: client no response in 89613ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 3820
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 09:56:41,256 ERROR 4884 [-/::1/-/68ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 4884
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 09:58:44,100 ERROR 4680 [-/::1/-/101ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 4680
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:00:01,091 ERROR 5060 [-/::1/-/1329ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 5060
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:01:22,014 ERROR 5060 [-/::1/-/8720ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 5060
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:03:31,331 ERROR 2328 [-/::1/-/578ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 2328
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:04:44,391 ERROR 2328 nodejs.ServerNoResponseError: server 127.0.0.1:53533 no response in 39985ms, maybe the socket is end on the other side. (address: 127.0.0.1:53533)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ServerNoResponseError"
+pid: 2328
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:06:08,879 ERROR 3376 nodejs.ClusterClientNoResponseError: client no response in 144464ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 3376
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:06:21,710 ERROR 2328 [-/::1/-/101ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 2328
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:07:20,574 ERROR 4792 nodejs.ServerNoResponseError: server 127.0.0.1:53533 no response in 20002ms, maybe the socket is end on the other side. (address: 127.0.0.1:53533)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ServerNoResponseError"
+pid: 4792
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:35:06,856 ERROR 4780 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4780
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 11:11:40,346 ERROR 5360 nodejs.ClusterClientNoResponseError: client no response in 74018ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 5360
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:25:39,189 ERROR 7356 [-/::1/-/7ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,306,"undefined")' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order (gid,total,username) values (2,306,"undefined")
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,306,\"undefined\")' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order (gid,total,username) values (2,306,\"undefined\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 7356
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:26:38,086 ERROR 6652 [-/::1/-/5ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,306,"muss1998")' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order (gid,total,username) values (2,306,"muss1998")
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,306,\"muss1998\")' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order (gid,total,username) values (2,306,\"muss1998\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 6652
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:27:34,540 ERROR 3216 [-/::1/-/7ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (null,0,"muss1998")' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order (gid,total,username) values (null,0,"muss1998")
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (null,0,\"muss1998\")' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order (gid,total,username) values (null,0,\"muss1998\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 3216
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:27:50,766 ERROR 3216 [-/::1/-/4ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,102,"muss1998")' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order (gid,total,username) values (2,102,"muss1998")
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,102,\"muss1998\")' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order (gid,total,username) values (2,102,\"muss1998\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 3216
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:28:38,915 ERROR 6444 [-/::1/-/13ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,102,muss1998)' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order (gid,total,username) values (2,102,muss1998)
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,102,muss1998)' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order (gid,total,username) values (2,102,muss1998)"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 6444
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:30:29,869 ERROR 7052 [-/::1/-/7ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(gid,total,username) values (2,102,'muss1998')' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order(gid,total,username) values (2,102,'muss1998')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(gid,total,username) values (2,102,'muss1998')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order(gid,total,username) values (2,102,'muss1998')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 7052
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:33:03,785 ERROR 7052 [-/::1/-/7ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(gid,total,username) values (null,0,'muss1998')' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order(gid,total,username) values (null,0,'muss1998')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(gid,total,username) values (null,0,'muss1998')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order(gid,total,username) values (null,0,'muss1998')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 7052
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:39:20,416 ERROR 3536 [-/::1/-/7ms POST /addorder] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'gid' cannot be null
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into ordertable(gid,total,username) values (null,0,'muss1998')
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'gid' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "insert into ordertable(gid,total,username) values (null,0,'muss1998')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_NULL_ERRORError"
+pid: 3536
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:41:36,460 ERROR 6808 [-/::1/-/8ms POST /addorder] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'gid' cannot be null
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into ordertable(gid,total,username) values (null,0,'muss1998')
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'gid' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "insert into ordertable(gid,total,username) values (null,0,'muss1998')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_NULL_ERRORError"
+pid: 6808
+hostname: FH76NJO29HM8FWC
+
