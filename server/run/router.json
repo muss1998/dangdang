@@ -6,50 +6,6 @@
       "GET"
     ],
     "paramNames": [],
-<<<<<<< HEAD
-    "path": "/addDetail",
-    "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/tocar",
-    "regexp": "/^\\/tocar(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-<<<<<<< HEAD
-=======
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/car",
-    "regexp": "/^\\/car(?:\\/(?=$))?$/",
-=======
-    "path": "/todetail",
-    "regexp": "/^\\/todetail(?:\\/(?=$))?$/",
->>>>>>> 9cc259bf8212d45cf4030a70030e57d2bd579d56
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
     "path": "/addDetail",
     "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
     "stack": [
@@ -95,7 +51,18 @@
   {
     "name": null,
     "methods": [
->>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/showpl",
+    "regexp": "/^\\/showpl(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "POST"
     ],
     "paramNames": [],
@@ -299,6 +266,18 @@
     "paramNames": [],
     "path": "/register",
     "regexp": "/^\\/register(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/order",
+    "regexp": "/^\\/order(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

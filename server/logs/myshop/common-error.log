@@ -3242,3 +3242,158 @@ pid: 23184
 hostname: DESKTOP-PN27GPC
 >>>>>>> 9cc259bf8212d45cf4030a70030e57d2bd579d56
 
+2020-07-16 16:18:30,369 ERROR 11332 [-/::1/-/45ms GET /addDetail?gid=2] nodejs.SyntaxError: Identifier 'ctx' has already been declared
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 11332
+hostname: DESKTOP-M4K67PD
+
+2020-07-16 16:18:50,452 ERROR 11332 [-/::1/-/110ms POST /detailpl] nodejs.ReferenceError: querObj is not defined
+    at DetailService.detailpl (C:\Users\hh\Desktop\dangdang\server\app\service\detail.js:31:71)
+    at DetailController.detailpl (C:\Users\hh\Desktop\dangdang\server\app\controller\detail.js:27:46)
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 11332
+hostname: DESKTOP-M4K67PD
+
+2020-07-16 16:22:16,325 ERROR 11332 nodejs.ServerNoResponseError: server 127.0.0.1:56317 no response in 40001ms, maybe the socket is end on the other side. (address: 127.0.0.1:56317)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\hh\Desktop\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ServerNoResponseError"
+pid: 11332
+hostname: DESKTOP-M4K67PD
+
+2020-07-16 16:22:54,994 ERROR 1008 nodejs.ClusterClientNoResponseError: client no response in 98658ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\hh\Desktop\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1008
+hostname: DESKTOP-M4K67PD
+
+2020-07-16 16:23:17,212 ERROR 12488 [-/::1/-/51ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\hh\Desktop\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\hh\Desktop\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\hh\Desktop\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\hh\Desktop\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\hh\Desktop\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (mid,gid,uid,comments,score,pjimg) values (undefined,2,undefined,"",3,"http://localhost:7001/public/upload/22d4dbfa-ad34-41df-b29d-053c7b66b8c4.jpg)"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments (mid,gid,uid,comments,score,pjimg) values (undefined,2,undefined,\"\",3,\"http://localhost:7001/public/upload/22d4dbfa-ad34-41df-b29d-053c7b66b8c4.jpg)\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 12488
+hostname: DESKTOP-M4K67PD
+
+2020-07-16 16:24:24,648 ERROR 12488 [-/::1/-/2ms GET /addDetail?gid=2] nodejs.SyntaxError: Identifier 'ctx' has already been declared
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 12488
+hostname: DESKTOP-M4K67PD
+
+2020-07-16 16:24:48,590 ERROR 12488 [-/::1/-/10ms POST /detailpl] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\hh\Desktop\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\hh\Desktop\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\hh\Desktop\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\hh\Desktop\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\hh\Desktop\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\hh\Desktop\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into comments (mid,gid,uid,comments,score,pjimg) values (undefined,2,undefined,"对对对",2,")"
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into comments (mid,gid,uid,comments,score,pjimg) values (undefined,2,undefined,\"对对对\",2,\")\""
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 12488
+hostname: DESKTOP-M4K67PD
+
+2020-07-16 16:26:07,135 ERROR 1568 [-/::1/-/61ms POST /detailpl] nodejs.TypeError: Cannot read property 'uid' of undefined
+    at DetailService.detailpl (C:\Users\hh\Desktop\dangdang\server\app\service\detail.js:15:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 1568
+hostname: DESKTOP-M4K67PD
+
+2020-07-16 16:27:49,479 ERROR 1568 [-/::1/-/2ms GET /addDetail?gid=2] nodejs.SyntaxError: Identifier 'ctx' has already been declared
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\hh\Desktop\dangdang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\hh\Desktop\dangdang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 1568
+hostname: DESKTOP-M4K67PD
+
