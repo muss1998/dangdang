@@ -15,11 +15,12 @@
         <el-form-item label="密码" prop="pass">
           <el-input type="password" v-model="ruleForm.pass" autocomplete="off"></el-input>
         </el-form-item>
-        <el-form-item label="确认密码" prop="checkPass">
-          <el-input type="password" v-model="ruleForm.checkPass" autocomplete="off"></el-input>
-        </el-form-item>
+        <br />
+        <br />
+        <br />
+        <br />
         <el-form-item>
-          <el-button type="primary" @click="submitForm('ruleForm')">提交</el-button>
+          <el-button type="primary" @click="submitForm('ruleForm')" :disabled="loginbtn">提交</el-button>
           <el-button @click="resetForm('ruleForm')">重置</el-button>
         </el-form-item>
       </el-form>
@@ -48,23 +49,14 @@ export default {
         callback();
       }
     };
-    var validatePass2 = (rule, value, callback) => {
-      if (value === "") {
-        callback(new Error("请再次输入密码"));
-      } else if (value !== this.ruleForm.pass) {
-        callback(new Error("两次输入密码不一致!"));
-      } else {
-        callback();
-      }
-    };
     return {
+      loginbtn: false,
       flag: true,
       flag2: false,
       imgsrc: "",
       user: "",
       ruleForm: {
         pass: "",
-        checkPass: "",
         name: ""
       },
       rules: {
@@ -72,10 +64,7 @@ export default {
           { required: true, message: "请输入用户名", trigger: "blur" },
           { min: 6, max: 16, message: "长度在 6 到 16 个字符", trigger: "blur" }
         ],
-        pass: [{ required: true, validator: validatePass, trigger: "blur" }],
-        checkPass: [
-          { required: true, validator: validatePass2, trigger: "blur" }
-        ]
+        pass: [{ required: true, validator: validatePass, trigger: "blur" }]
       }
     };
   },
@@ -87,6 +76,7 @@ export default {
           axios.post(url, this.ruleForm).then(res => {
             if (res.data.code == 1) {
               window.localStorage.setItem("islogin", this.ruleForm.name);
+              this.loginbtn = true;
               this.$alert("登录成功", {
                 confirmButtonText: "确定",
                 callback: action => {
@@ -100,6 +90,7 @@ export default {
               this.$router.push({ name: "About" });
             } else if (res.data.code == 0) {
               alert("登录失败");
+              this.ruleForm = {};
             }
           });
         } else {

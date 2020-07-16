@@ -31,7 +31,6 @@ const routes = [{
     name: 'detail',
     component: () => import('../views/detail/Detail.vue')
   },
-  
   {
     path: '/my',
     name: 'My',
@@ -41,6 +40,11 @@ const routes = [{
     path: '/car',
     name: 'Car',
     component: () => import('../views/car/Car.vue')
+  },
+  {
+    path: '/order',
+    name: 'Order',
+    component: () => import('../views/order/Order.vue')
   }
 ]
 
@@ -57,7 +61,7 @@ router.beforeEach((to, from, next) => {
       next()
     } else {
       alert("请先登录")
-      next("/login")
+      next(`/login?from=my`)
     }
   } else {
     next()

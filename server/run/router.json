@@ -2,6 +2,102 @@
   {
     "name": null,
     "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/car",
+    "regexp": "/^\\/car(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/my",
+    "regexp": "/^\\/my(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/mychgusern",
+    "regexp": "/^\\/mychgusern(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/mychgkey",
+    "regexp": "/^\\/mychgkey(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/mychgimg",
+    "regexp": "/^\\/mychgimg(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/addorder",
+    "regexp": "/^\\/addorder(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/getcar",
+    "regexp": "/^\\/getcar(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/deleteCar",
+    "regexp": "/^\\/deleteCar(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
@@ -30,8 +126,32 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/car",
-    "regexp": "/^\\/car(?:\\/(?=$))?$/",
+    "path": "/detailpl",
+    "regexp": "/^\\/detailpl(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/uploadImg",
+    "regexp": "/^\\/uploadImg(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/showpl",
+    "regexp": "/^\\/showpl(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -188,11 +308,12 @@
   {
     "name": null,
     "methods": [
-      "POST"
+      "HEAD",
+      "GET"
     ],
     "paramNames": [],
-    "path": "/car",
-    "regexp": "/^\\/car(?:\\/(?=$))?$/",
+    "path": "/getallusers",
+    "regexp": "/^\\/getallusers(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -203,8 +324,21 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/my",
-    "regexp": "/^\\/my(?:\\/(?=$))?$/",
+    "path": "/changeusers",
+    "regexp": "/^\\/changeusers(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/allusers",
+    "regexp": "/^\\/allusers(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -215,20 +349,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/mychgusern",
-    "regexp": "/^\\/mychgusern(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/mychgkey",
-    "regexp": "/^\\/mychgkey(?:\\/(?=$))?$/",
+    "path": "/showpl",
+    "regexp": "/^\\/showpl(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -277,6 +399,18 @@
     "paramNames": [],
     "path": "/register",
     "regexp": "/^\\/register(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/order",
+    "regexp": "/^\\/order(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

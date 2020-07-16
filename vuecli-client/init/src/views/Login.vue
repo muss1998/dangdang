@@ -14,7 +14,7 @@
             v-model="Password"
             placeholder="请输入密码"
             class="login-password"
-            @input="password"
+           
             show-password
           ></el-input>
           <p :class="warn2"></p>
@@ -72,6 +72,7 @@ export default {
         .then(res => {
           if (res.data.code == 200) {
             window.localStorage.setItem("islogin", true);
+			// window.localStorage.setItem("isloginusername", true);
             this.$alert(res.data.info, "温馨提示", {
               confirmButtonText: "确定",
               callback: () => {

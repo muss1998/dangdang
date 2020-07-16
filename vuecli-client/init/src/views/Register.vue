@@ -17,7 +17,7 @@
             class="login-password"
             @input="password"
             show-password
-          ></el-input></el-input><i :class="icon2"></i>
+          ></el-input><i :class="icon2"></i>
           <p :class="warn2">{{passwordSearch}}</p>
           <el-input
             v-model="Passwordre"

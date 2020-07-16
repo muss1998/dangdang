@@ -7,9 +7,28 @@ class MyController extends Controller {
         const {
             ctx
         } = this;
-        console.log(this.ctx.request.body,'body');
-        this.ctx.body = await this.ctx.service.my.getMys(ctx.request.body);
+
+        // console.log(this.ctx.session.islogin, "login-----------------------");
+        if (this.ctx.session.islogin) {
+            // console.log(666666)
+        // console.log(this.ctx.session.islogin, "login-----------------------");
+        if (this.ctx.session.islogin) {
+            this.ctx.body = await this.ctx.service.my.getMys({
+                username: this.ctx.session.islogin
+            });
+        } else {
+            this.ctx.body = {
+                code: 3,
+                info: "未登录"
+            }
+        }
+
+
+
+
+
     }
+}
 }
 
 module.exports = MyController;

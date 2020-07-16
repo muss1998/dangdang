@@ -127,12 +127,10 @@ export default {
     }
   },
   mounted() {
-    var url = "http://localhost:7001/allbooks?pageNum=5&num=1";
-    axios.get(url).then(res => {
+    axios.get("http://localhost:7001/allbooks?pageNum=5&num=1").then(res => {
       this.tableData = res.data.books;
     });
-    var url = "http://localhost:7001/getallbooks"; //无条件查询所有商品
-    axios.get(url).then(res => {
+    axios.get("http://localhost:7001/getallbooks").then(res => {
       this.countID = res.data.countID;
     });
   }

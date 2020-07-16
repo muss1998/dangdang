@@ -16,9 +16,19 @@ class DetailController extends Controller {
 		const {
 			ctx
 		} = this;
+		ctx.request.body.username = this.ctx.session.islogin
+		//let result=await this.ctx.service.detail.detailpl({username:this.ctx.session.islogin},ctx.request.body);
 		let result = await this.ctx.service.detail.detailpl(ctx.request.body);
-		ctx.body = {
-			info: "提交成功"
+		if (result.affectedRows != 0) {
+			ctx.body = {
+				code: 200,
+				info: "提交成功"
+			}
+		} else {
+			ctx.body = {
+				code: 300,
+				info: "提交失败",
+			}
 		}
 	}
 
@@ -27,13 +37,13 @@ class DetailController extends Controller {
 			ctx
 		} = this;
 		let result = await this.ctx.service.detail.showpl(ctx.request.body);
-		if(result[0]){
-			ctx.body={
-				data:result
+		if (result[0]) {
+			ctx.body = {
+				data: result
 			}
-		}else{
-			ctx.body={
-				data:"暂无评论"
+		} else {
+			ctx.body = {
+				data: "暂无评论"
 			}
 		}
 	}
@@ -44,7 +54,6 @@ class DetailController extends Controller {
 		} = this;
 		const dest = '/public/upload/';
 		const file = ctx.request.files[0];
-		console.log(ctx.request.files[0])
 
 		//__dirname---egg-mysql/app/controller     
 		//path.dirname(__dirname)---egg-mysql/app/
@@ -63,7 +72,6 @@ class DetailController extends Controller {
 		}
 
 	}
-
 
 
 }
