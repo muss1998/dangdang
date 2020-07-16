@@ -383,9 +383,7 @@
 			// 		})
 			// 	}
 			// }
-			uploadimg(){
-				console.log(1111111)
-			},
+
 			handleRemove(file, fileList) {
 				console.log(file, fileList);
 			},
