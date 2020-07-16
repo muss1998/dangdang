@@ -30,10 +30,18 @@ class UserController extends Controller {
 		var result = await this.ctx.service.user.login(obj)
 		if (result[0]) {
 			if (obj.password == result[0].password) {
-				this.ctx.session.islogin=obj.username
-				ctx.body = {
-					info: "登录成功",
-					code: 200
+				if(result[0].blacklist=="是"){
+					ctx.body = {
+						info: "很抱歉，由于您的账号涉及违规操作，暂时无法登陆",
+						code: 304
+					}
+				}
+				else{
+					this.ctx.session.islogin=obj.username
+					ctx.body = {
+						info: "登录成功",
+						code: 200
+					}
 				}
 			} else {
 				ctx.body = {

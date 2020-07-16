@@ -73,6 +73,22 @@
       "checkAddress": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
+  "multipart": {
+    "mode": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
+    "autoFields": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
   "session": {
     "key": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
     "maxAge": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\config\\config.default.js",
@@ -117,22 +133,6 @@
   },
   "schedule": {
     "directory": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-schedule\\config\\config.default.js"
-  },
-  "multipart": {
-    "mode": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "cleanSchedule": {
-      "cron": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-multipart\\config\\config.default.js"
-    }
   },
   "development": {
     "watchDirs": "C:\\Users\\leixiang\\Desktop\\project\\dangdang\\server\\node_modules\\egg-development\\config\\config.default.js",

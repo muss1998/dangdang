@@ -351,14 +351,7 @@
 		name: "detail",
 		data() {
 			return {
-				fileList: [{
-					name: 'food.jpeg',
-					url: 'https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg?imageMogr2/thumbnail/360x360/format/webp/quality/100'
-				}, {
-					name: 'food2.jpeg',
-					url: 'https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg?imageMogr2/thumbnail/360x360/format/webp/quality/100'
-
-				}],
+				fileList: [],
 				value1: null,
 				value: null,
 				goodstail: {},
@@ -369,7 +362,8 @@
 				// flag1:"false"
 				msg: "",
 				img:"",
-				arr:[]
+				arr:[],
+				arguments:""
 
 			}
 		},
@@ -389,6 +383,8 @@
 			// }
 			uploadimg(){
 				console.log(1111111)
+			
+			
 			},
 			handleRemove(file, fileList) {
 				console.log(file, fileList);
@@ -399,8 +395,11 @@
 			handleExceed(files, fileList) {
 				this.$message.warning(`当前限制选择 3 个文件，本次选择了 ${files.length} 个文件，共选择了 ${files.length + fileList.length} 个文件`);
 			},
-			beforeRemove(file, fileList) {
-				return this.$confirm(`确定移除 ${ file.name }？`);
+			uploadimg(){
+				console.log("success")
+				console.log(arguments)
+				this.arguments =arguments[0].data.src
+		
 			},
 			vshow() {
 				// this.flag = true
@@ -409,22 +408,26 @@
 			tijao() {
 				console.log(this.value)
 				this.flag = false
+				// console.log(arguments[0].data.src)
 				var url3 = `http://localhost:7001/detailpl`
 				axios.post(url3, {
-					value: this.value,
+					img:this.arguments,
+					score: this.value,
 					gid: this.gid,
-					msg:this.msg
+					comments:this.msg
 				}, {
 					withCredentials: true
 				}).then((res) => {
 					console.log(res)
-					console.log(res.data)
-					if (res.data.code == 4000) {
-						alert("没有登录，请登录！")
-						this.$router.push({
-							path: `/login?from:this.$route.path`,
+					// console.log(res.data)
+					if (res.data.code == 200) {
+						alert("添加成功！")
+						// this.$router.push({
+						// 	path: `/login?from:this.$route.path`,
 
-						})
+						// })
+					}else if(res.data.code == 300){
+						alert("添加失败！")
 					}
 				})
 
@@ -447,6 +450,7 @@
 				}
 			},
 			tocar() {
+			
 				var num = this.num
 
 				var url1 = `http://localhost:7001/tocar`
@@ -477,18 +481,26 @@
 			// var gid = this.$route.query.gid
 			var gid = this.gid
 			// this.gid=this.$route.query.gid
-			console.log(this.gid)
 			var url = "http://localhost:7001/addDetail?gid=" + gid
-			axios.get(url).then((res) => {
+			axios.get(url,{
+					withCredentials: true
+				}).then((res) => {
 				// console.log(res)
 				this.goodstail = res.data[0]
+				console.log(res.data[0])
 			})
 			
-			var url4 = `http://localhost:7001/todetail`
-			axios.get(url).then((res) => {
-				// console.log(res)
-				this.arr = res.data
-			})
+			// var url4 = `http://localhost:7001/todetail`
+			// axios.get(url).then((res) => {
+			// 	// console.log(res)
+			// 	this.arr = res.data
+			// 	console.log(res.data)
+			// })
+			
+			
+			
+			// *******************找uid
+
 		},
 		components: {
 			detailpl: () => import("@/views/detailpl/detailpl")

@@ -43,45 +43,20 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/car",
-    "regexp": "/^\\/car(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/addDetail",
-    "regexp": "/^\\/addDetail(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/tocar",
-    "regexp": "/^\\/tocar(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
     "path": "/detailpl",
     "regexp": "/^\\/detailpl(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/uploadImg",
+    "regexp": "/^\\/uploadImg(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
