@@ -4,7 +4,6 @@
  * @param {Egg.Application} app - egg application
  */
 module.exports = app => {
-
   const {
     router,
     controller
@@ -12,17 +11,10 @@ module.exports = app => {
 
   // router.get('/', controller.home.index);
 
-  router.get('/addDetail', controller.detail.addDetail); //商品详情
-  router.post('/tocar', controller.tocar.tocar); //添加到购物车
-
-
   //罗燕力1、管理员登录 ruleForm: {pass: "",checkPass: "", name: ""}
   router.post('/administratorLogin', controller.administrator.administratorLogin);
   //罗燕力2、管理员得到所有书籍 - 按条目数
   router.get('/allbooks', controller.administrator.allbooks);
-
-
-
   //罗燕力3、管理员添加书籍
   router.post('/addbooks', controller.administrator.addbooks);
   //罗燕力4、无条件得到所有商品
@@ -51,6 +43,31 @@ module.exports = app => {
   router.post('/login', controller.user.login);
   router.post('/register', controller.user.register);
 
+
+  //雷香
+
+  // router.get('/', controller.home.index);
+  //雷香1、商品详情
+  router.get('/addDetail', controller.detail.addDetail);
+  //雷香2、添加到购物车
+  router.post('/tocar', controller.tocar.tocar);
+  router.post('/tocar', controller.tocar.tocar); //添加到购物车
+  router.post('/detailpl', controller.detail.detailpl); //添加评论
+  router.post('/uploadImg', controller.detail.uploadImg); //上传图片到服务器并保存
+  router.post('/showpl', controller.detail.showpl)
+
+
+  //罗婧馨
+
+  router.post('/order', controller.order.order); //订单结算界面
+
+
+
+
+  //雷磊
+  router.post('/search', controller.user.search); //查看是否有该用户
+  router.post('/login', controller.user.login);
+  router.post('/register', controller.user.register);
 
 
 };

@@ -7,6 +7,7 @@ class MyController extends Controller {
         const {
             ctx
         } = this;
+
         // console.log(this.ctx.session.islogin, "login-----------------------");
         if (this.ctx.session.islogin) {
             // console.log(666666)
@@ -21,6 +22,10 @@ class MyController extends Controller {
         }
 
 
+
+
+        // console.log(this.ctx.request.body,'body');
+        // this.ctx.body = await this.ctx.service.my.getMys(ctx.request.body);
 
     }
 }

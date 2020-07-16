@@ -3,12 +3,12 @@ class AdministratorService extends Service {
     //罗燕力1、-登录
     async administratorLogin(userinfo) {
         var data = await this.app.mysql.query(`select * from user where username = '${userinfo.name}' and password='${userinfo.pass}'`);
-        if (data[0]) {
+        if (data[0] && data[0].type == 1) {
             this.ctx.session.administratorname = userinfo.name
             return {
                 code: 1,
                 info: "登录成功",
-                imgsrc:data[0].imgsrc
+                imgsrc: data[0].imgsrc
             }
         } else {
             return {
@@ -35,7 +35,7 @@ class AdministratorService extends Service {
     //罗燕力3、-管理员添加商品 addbooks
     async addbooks(book) {
         var data = await this.app.mysql.query(`insert into goods(goodsname,imgsrc,price,pjnumber,scnumber,keywords,author) values ('${book.goodsname}','${book.imgsrc}',${book.price},${book.pjnumber},${book.scnumber},'${book.keywords}','${book.author}')`);
-        if (data.affectedRows!=0) {
+        if (data.affectedRows != 0) {
             return {
                 code: 1,
                 info: "添加成功"
@@ -64,7 +64,7 @@ class AdministratorService extends Service {
     //罗燕力6、-管理员页面删除书籍
     async delbooks(gid) {
         var obj = await this.app.mysql.query(`delete from goods where gid = ${gid}`);
-        if (obj.affectedRows!=0) {
+        if (obj.affectedRows != 0) {
             return {
                 code: 1,
                 info: "删除成功"

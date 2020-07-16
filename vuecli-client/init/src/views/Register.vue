@@ -8,8 +8,8 @@
         <div class="login-form">
           <div></div>
           <p class="login-form-title">新用户注册</p>
-          <el-input v-model="Username" placeholder="请输入用户名" class="login-user" @input="username"></el-input>
-          <p :class="warn1">*请输入6-16位数字、大小写字母或者下划线</p>
+          <el-input v-model="Username" placeholder="请输入用户名" class="login-user" @input="username"></el-input><i :class="icon1 "></i>
+          <p :class="warn1">{{usernameSearch}}</p>
           <p :class="warn4">{{warn}}</p>
           <el-input
             v-model="Password"
@@ -17,8 +17,8 @@
             class="login-password"
             @input="password"
             show-password
-          ></el-input>
-          <p :class="warn2">*请输入6-16位数字、大小写字母或者下划线</p>
+          ></el-input></el-input><i :class="icon2"></i>
+          <p :class="warn2">{{passwordSearch}}</p>
           <el-input
             v-model="Passwordre"
             placeholder="确认密码"
@@ -55,15 +55,23 @@ export default {
       warn2: "warn2",
       warn3: "warn2",
       warn4: "warn41",
-      check: "*请再次确认您的密码"
+      usernameSearch:"*请输入6-16位数字、大小写字母或者下划线",
+      passwordSearch:"*请输入6-16位数字、大小写字母或者下划线",
+      check: "*请再次确认您的密码",
+      icon1:"el-icon-circle-check yes1 display1",
+      icon2:"el-icon-circle-check yes2 display2"
+
     };
   },
   methods: {
     username() {
       var username = /^[a-zA-Z0-9_]{6,16}$/;
       if (username.test(this.Username)) {
-        this.warn1 = "warn11";
+        this.usernameSearch = "";
+        this.icon1="el-icon-circle-check yes1"
       } else {
+        this.icon1="el-icon-circle-check display1"
+        this.usernameSearch="*请输入6-16位数字、大小写字母或者下划线"
         if (this.Username == "") {
           this.warn1 = "warn1";
         } else {
@@ -152,8 +160,11 @@ export default {
     password() {
       var password = /^[a-zA-Z0-9_]{6,16}$/;
       if (password.test(this.Password)) {
-        this.warn2 = "warn21";
+        this.passwordSearch = "";
+        this.icon2="el-icon-circle-check yes2"
       } else {
+         this.passwordSearch="*请输入6-16位数字、大小写字母或者下划线"
+         this.icon2="el-icon-circle-check yes2 display2"
         if (this.Password == "") {
           this.warn2 = "warn2";
         } else {
@@ -204,6 +215,7 @@ export default {
 }
 
 .login-form {
+  position: relative;
   margin-top: 80px;
   border: 1px solid #ccc;
   text-align: center;
@@ -299,5 +311,29 @@ export default {
 
 .Tologin {
   text-decoration: none;
+}
+
+.yes1{
+  font-size: 20px;
+  position: absolute;
+  color: rgb(103, 221, 122);
+  top:154px;
+  right:80px
+}
+
+.display1{
+  display: none;
+}
+
+.yes2{
+  font-size: 20px;
+  position: absolute;
+  color: rgb(103, 221, 122);
+  top:248px;
+  right:80px
+}
+
+.display2{
+  display: none;
 }
 </style>

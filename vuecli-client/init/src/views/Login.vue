@@ -14,18 +14,17 @@
             v-model="Password"
             placeholder="请输入密码"
             class="login-password"
-            @input="password"
             show-password
           ></el-input>
-          <p :class="warn2">*请输入6-16位数字、大小写字母或者下划线</p>
-
+          <p :class="warn2"></p>
           <br />
           <el-button type="primary" round class="loginbtn" @click="login">登录</el-button>
           <br />
           <div class="register-box">
-            <a href="#" class="forget">忘记密码</a>
             <span class="register-text">还没有账号？</span>
-            <router-link to="/register" class="Toregister"><span class="register-btn">前往注册</span></router-link>
+            <router-link to="/register" class="Toregister">
+              <span class="register-btn">前往注册</span>
+            </router-link>
           </div>
         </div>
       </el-col>
@@ -36,8 +35,7 @@
 <script>
 import axios from "axios";
 export default {
-  mounted () {
-  },
+  mounted() {},
   data() {
     return {
       Username: "",
@@ -59,18 +57,7 @@ export default {
         }
       }
     },
-    password() {
-      var password = /^[a-zA-Z0-9_]{6,16}$/;
-      if (password.test(this.Password)) {
-        this.warn2 = "warn21";
-      } else {
-        if (this.Password == "") {
-          this.warn2 = "warn2";
-        } else {
-          this.warn2 = "warn22";
-        }
-      }
-    },
+    
     login() {
       axios
         .post(
@@ -83,17 +70,23 @@ export default {
         )
         .then(res => {
           if (res.data.code == 200) {
-            window.localStorage.setItem("islogin",true)
+            window.localStorage.setItem("islogin", true);
             this.$alert(res.data.info, "温馨提示", {
               confirmButtonText: "确定",
               callback: () => {
-                if(this.$route.query.from=="/register"){
-                  this.$router.push(`/`)
-                }else{
-                  this.$router.push(`${this.$route.query.from}`)
+                if (this.$route.query.from == "/register") {
+                  this.$router.push(`/`);
+                } else {
+                  if(this.$route.query.from==undefined){
+                    this.$route.query.from="/"
+                  }
+                  this.$router.push(`${this.$route.query.from}`);
                 }
-                ;
               }
+            });
+          } else if (res.data.code == 403) {
+            this.$alert(res.data.info, "温馨提示", {
+              confirmButtonText: "确定"
             });
           } else {
             this.$alert(res.data.info, "温馨提示", {
@@ -149,22 +142,9 @@ export default {
   color: red;
 }
 .warn2 {
-  font-size: 10px;
   margin-bottom: 30px;
-  color: #aaa;
 }
 
-.warn21 {
-  font-size: 10px;
-  margin-bottom: 30px;
-  color: green;
-}
-
-.warn22 {
-  font-size: 10px;
-  margin-bottom: 30px;
-  color: red;
-}
 
 .login-user {
   margin: 0 auto;
@@ -181,11 +161,6 @@ export default {
   margin-bottom: 60px;
 }
 
-.forget {
-  color: #409eff;
-  margin-right: 100px;
-  text-decoration: none;
-}
 .register-box {
   margin-bottom: 100px;
 }
@@ -200,7 +175,7 @@ export default {
   color: #333;
 }
 
-.Toregister{
+.Toregister {
   text-decoration: none;
 }
 </style>

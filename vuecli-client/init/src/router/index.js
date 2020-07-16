@@ -5,6 +5,11 @@ import Login from '../views/Login.vue'
 Vue.use(VueRouter)
 
 const routes = [{
+    path: '/',
+    name: 'index',
+    component: () => import('@/components/index.vue')
+  },
+  {
     path: '/login',
     name: 'Login',
     component: Login
@@ -14,8 +19,6 @@ const routes = [{
     path: '/register',
     name: 'Register',
     component: () => import('../views/Register.vue')
-
-
   },
   // {
   //   path: '/about',
@@ -58,7 +61,7 @@ router.beforeEach((to, from, next) => {
       next()
     } else {
       alert("请先登录")
-      next("/login")
+      next(`/login?from=my`)
     }
   } else {
     next()
