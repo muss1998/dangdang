@@ -381,11 +381,15 @@
 			// 		})
 			// 	}
 			// }
+<<<<<<< HEAD
 			uploadimg(){
 				console.log(1111111)
 			
 			
 			},
+=======
+
+>>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
 			handleRemove(file, fileList) {
 				console.log(file, fileList);
 			},
