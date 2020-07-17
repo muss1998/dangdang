@@ -4,13 +4,21 @@
  * @param {Egg.Application} app - egg application
  */
 module.exports = app => {
+  const {
+    router,
+    controller
+  } = app;
 
-	const {
-		router,
-		controller
-	} = app;
 
 
+  router.post('/car', controller.car.getCar); // 罗婧馨1、购物车
+  router.post('/my', controller.my.getMy); //罗婧馨2、个人中心
+  router.post('/mychgusern', controller.mychgkey.myChgUser); //罗婧馨3、个人中心改用户名
+  router.post('/mychgkey', controller.mychgkey.myChgKey); //罗婧馨4、个人中心改密码
+  router.post('/mychgimg', controller.mychgkey.myChgImg); //罗婧馨4、个人中心改密码
+  router.post('/addorder', controller.mychgkey.addorder); //罗婧馨6、增加订单表
+  router.post('/getcar', controller.mychgkey.getcar) //罗婧馨7、查购物车
+  router.post('/deleteCar', controller.mychgkey.deleteCar) //罗婧馨8、删除购物车
 
 
 
@@ -24,6 +32,9 @@ module.exports = app => {
 
 
 
+
+
+ 
 
 
 	//罗燕力1、管理员登录 ruleForm: {pass: "",checkPass: "", name: ""}
@@ -47,12 +58,6 @@ module.exports = app => {
 	//罗燕力10、管理员得到所有用户表 - 按条目数
 	router.get('/allusers', controller.administrator.allusers);
 
-
-	
-	router.post('/car', controller.car.getCar); //罗婧馨1、购物车
-	router.post('/my', controller.my.getMy); //罗婧馨2、个人中心
-	router.post('/mychgusern', controller.mychgkey.myChgUser); //罗婧馨3、个人中心改用户名
-	router.post('/mychgkey', controller.mychgkey.myChgKey); //罗婧馨4、个人中心改密码
 
 
 	//雷磊

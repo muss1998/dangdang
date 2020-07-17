@@ -7,6 +7,7 @@ class CarController extends Controller {
         const {
             ctx
         } = this;
+        console.log(this.ctx.session.islogin)
         if (this.ctx.session.islogin) {
             this.ctx.body = await this.ctx.service.car.getCars({
                 username: this.ctx.session.islogin

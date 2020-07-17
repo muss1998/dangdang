@@ -7,6 +7,10 @@ class MyController extends Controller {
         const {
             ctx
         } = this;
+
+        // console.log(this.ctx.session.islogin, "login-----------------------");
+        if (this.ctx.session.islogin) {
+            // console.log(666666)
         // console.log(this.ctx.session.islogin, "login-----------------------");
         if (this.ctx.session.islogin) {
             this.ctx.body = await this.ctx.service.my.getMys({
@@ -19,7 +23,12 @@ class MyController extends Controller {
             }
         }
 
+
+
+
+
     }
+}
 }
 
 module.exports = MyController;

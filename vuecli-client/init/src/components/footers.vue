@@ -1,12 +1,72 @@
 <template>
   <div class="footer">
     <div class="topimg">
-      <div class="imgfont">1</div>
-      <div class="imgfont">2</div>
-      <div class="imgfont">3</div>
-      <div class="imgfont">4</div>
+      <div class="imgfont1"></div>
+      <div class="imgfont2"></div>
+      <div class="imgfont3"></div>
+      <div class="imgfont4"></div>
     </div>
-    <div class="guide"></div>
+    <div class="guide">
+      <div class="buttom">
+        <span class="buttom-title">购物指南</span>
+        <ul class="buttom-littletitle">
+          <li>购物流程</li>
+          <li>发票制度</li>
+          <li>服务协议</li>
+          <li>会员优惠</li>
+        </ul>
+      </div>
+
+      <div class="buttom">
+        <span class="buttom-title">支付方式</span>
+        <ul class="buttom-littletitle">
+          <li>网上支付</li>
+          <li>礼品卡支付</li>
+          <li>银行转帐</li>
+          <li>礼券支付</li>
+        </ul>
+      </div>
+
+      <div class="buttom">
+        <span class="buttom-title">订单服务</span>
+        <ul class="buttom-littletitle">
+          <li>购物流程</li>
+          <li>订单状态说明</li>
+          <li>自助取消订单</li>
+          <li>自助修改订单</li>
+        </ul>
+      </div>
+
+      <div class="buttom">
+        <span class="buttom-title">配送方式</span>
+        <ul class="buttom-littletitle">
+          <li>当日递</li>
+          <li>次日达</li>
+          <li>订单自提</li>
+          <li>验货与签收</li>
+        </ul>
+      </div>
+
+      <div class="buttom">
+        <span class="buttom-title">退换货</span>
+        <ul class="buttom-littletitle">
+          <li>退换货服务查询</li>
+          <li>自助申请退换货</li>
+          <li>退换货进度查询</li>
+          <li>退款方式和时间</li>
+        </ul>
+      </div>
+
+      <div class="buttom">
+        <span class="buttom-title">商家服务</span>
+        <ul class="buttom-littletitle">
+          <li>商家中心</li>
+          <li>运营服务</li>
+          <li>加入尾品汇</li>
+          <li>意见反馈</li>
+        </ul>
+      </div>
+    </div>
     <div class="last">
       <ul>
         <li>公司简历</li>
@@ -37,7 +97,8 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+    };
   }
 };
 </script>
@@ -46,35 +107,57 @@ export default {
   margin-top: 10px;
   width: 100%;
   height: 420px;
-  border: 1px solid red;
-  border-top: 2px solid red;
   overflow: hidden;
 }
 .footer .topimg {
+  margin-top: 20px;
   width: 100%;
   height: 78px;
-  border: 1px solid blue;
   display: flex;
   padding-left: 300px;
   background-color: #f4f4f4;
   overflow: hidden;
 }
-.footer .topimg .imgfont {
+.footer .topimg .imgfont1 {
   width: 15%;
   height: 70px;
-  border: 1px solid yellowgreen;
+  background: url("../img/buttom-img.png") no-repeat;
+  background-position: 22px 1px;
+  background-size: 180px 274px;
+}
+
+.footer .topimg .imgfont2 {
+  width: 15%;
+  height: 70px;
+  background: url("../img/buttom-img.png") no-repeat;
+  background-position: 22px -67px;
+  background-size: 180px 274px;
+}
+
+.footer .topimg .imgfont3 {
+  width: 15%;
+  height: 70px;
+  background: url("../img/buttom-img.png") no-repeat;
+  background-position: 22px -136px;
+  background-size: 180px 274px;
+}
+
+.footer .topimg .imgfont4 {
+  width: 15%;
+  height: 70px;
+  background: url("../img/buttom-img.png") no-repeat;
+  background-position: 22px -205px;
+  background-size: 180px 274px;
 }
 .footer .guide {
-  width: 60.5%;
+  width: 64.5%;
   height: 140px;
-  border: 1px solid green;
   margin-left: 300px;
   margin-top: 40px;
 }
 .footer .last {
   width: 100%;
   height: 100px;
-  border: 1px solid brown;
 }
 .footer .last ul {
   margin-left: 24%;
@@ -89,11 +172,41 @@ export default {
 .footer .last span {
   margin: 0 17px 0 19px;
   color: #8c8c8c;
-   font-size: 12px;
-
+  font-size: 12px;
 }
-.footer .last li :hover{
-    color: red;
-    text-decoration: underline;
+.footer .last li :hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.buttom {
+  display: inline-block;
+  width: 142px;
+  height: 116px;
+}
+
+.buttom-title {
+  padding-left: 43px;
+  font-size: 14px;
+  font-family: "microsoft yahei";
+  color: #323232;
+  height: 36px;
+  line-height: 36px;
+}
+
+.buttom-littletitle {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.buttom-littletitle li {
+  text-align: center;
+  line-height: 20px;
+  height: 20px;
+  margin-top: 4px;
+  list-style-type: none;
+  border: 0;
+  font-size: 12px;
 }
 </style>

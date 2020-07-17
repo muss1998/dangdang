@@ -1845,6 +1845,10 @@ hostname: DESKTOP-PN27GPC
 >>>>>>> 957cdb03a9e421c3e3dabad0cfc37940ea7f440e
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+2020-07-15 09:52:02,163 ERROR 6864 nodejs.ServerNoResponseError: server 127.0.0.1:49359 no response in 39975ms, maybe the socket is end on the other side. (address: 127.0.0.1:49359)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+=======
 2020-07-15 16:56:32,145 ERROR 11560 nodejs.unhandledExceptionError: read ECONNRESET
     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
 errno: "ECONNRESET"
@@ -2003,35 +2007,130 @@ hostname: DESKTOP-6BKTIMC
 
 2020-07-15 18:51:25,393 ERROR 5992 nodejs.ServerNoResponseError: server 127.0.0.1:62973 no response in 39998ms, maybe the socket is end on the other side. (address: 127.0.0.1:62973)
     at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+>>>>>>> 86f0f7760edbc45048e56132568cfa71c7f2f04e
 =======
 <<<<<<< HEAD
 2020-07-15 11:25:01,361 ERROR 35960 nodejs.ServerNoResponseError: server 127.0.0.1:54484 no response in 39963ms, maybe the socket is end on the other side. (address: 127.0.0.1:54484)
     at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\hh\Desktop\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+<<<<<<< HEAD
+>>>>>>> 799ac888323b707fd8099f3751f86632489e7003
+=======
 >>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
+>>>>>>> 86f0f7760edbc45048e56132568cfa71c7f2f04e
     at ontimeout (timers.js:425:11)
     at tryOnTimeout (timers.js:289:5)
     at listOnTimeout (timers.js:252:5)
     at Timer.processTimers (timers.js:212:10)
 name: "ServerNoResponseError"
 <<<<<<< HEAD
+<<<<<<< HEAD
+pid: 6864
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 09:52:31,797 ERROR 3820 nodejs.ClusterClientNoResponseError: client no response in 89613ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+=======
 pid: 5992
 hostname: DESKTOP-6BKTIMC
 
 2020-07-15 18:52:04,398 ERROR 16040 nodejs.ClusterClientNoResponseError: client no response in 98643ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+>>>>>>> 86f0f7760edbc45048e56132568cfa71c7f2f04e
 =======
 pid: 35960
 hostname: DESKTOP-M4K67PD
 
 2020-07-15 11:29:29,418 ERROR 22560 nodejs.ClusterClientNoResponseError: client no response in 328001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\hh\Desktop\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+<<<<<<< HEAD
+>>>>>>> 799ac888323b707fd8099f3751f86632489e7003
+=======
 >>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
+>>>>>>> 86f0f7760edbc45048e56132568cfa71c7f2f04e
     at ontimeout (timers.js:425:11)
     at tryOnTimeout (timers.js:289:5)
     at listOnTimeout (timers.js:252:5)
     at Timer.processTimers (timers.js:212:10)
 name: "ClusterClientNoResponseError"
 <<<<<<< HEAD
+<<<<<<< HEAD
+pid: 3820
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 09:56:41,256 ERROR 4884 [-/::1/-/68ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 4884
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 09:58:44,100 ERROR 4680 [-/::1/-/101ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 4680
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:00:01,091 ERROR 5060 [-/::1/-/1329ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 5060
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:01:22,014 ERROR 5060 [-/::1/-/8720ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 5060
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:03:31,331 ERROR 2328 [-/::1/-/578ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 2328
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:04:44,391 ERROR 2328 nodejs.ServerNoResponseError: server 127.0.0.1:53533 no response in 39985ms, maybe the socket is end on the other side. (address: 127.0.0.1:53533)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ServerNoResponseError"
+pid: 2328
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:06:08,879 ERROR 3376 nodejs.ClusterClientNoResponseError: client no response in 144464ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 3376
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:06:21,710 ERROR 2328 [-/::1/-/101ms POST /mychgusern] nodejs.TypeError: Cannot read property 'username' of undefined
+    at MychgkeyController.myChgUser (C:\Users\Administrator\Desktop\app\dangdang\server\app\controller\mychgkey.js:13:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 2328
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:07:20,574 ERROR 4792 nodejs.ServerNoResponseError: server 127.0.0.1:53533 no response in 20002ms, maybe the socket is end on the other side. (address: 127.0.0.1:53533)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ServerNoResponseError"
+pid: 4792
+hostname: FH76NJO29HM8FWC
+
+2020-07-15 10:35:06,856 ERROR 4780 nodejs.unhandledExceptionError: read ECONNRESET
+=======
 pid: 16040
 hostname: DESKTOP-6BKTIMC
 
@@ -2070,6 +2169,7 @@ pid: 2944
 hostname: DESKTOP-6BKTIMC
 
 2020-07-16 09:27:08,818 ERROR 6324 nodejs.unhandledExceptionError: read ECONNRESET
+>>>>>>> 86f0f7760edbc45048e56132568cfa71c7f2f04e
 =======
 pid: 22560
 hostname: DESKTOP-M4K67PD
@@ -2084,11 +2184,19 @@ pid: 3624
 hostname: DESKTOP-PN27GPC
 
 2020-07-15 14:26:10,677 ERROR 3624 nodejs.unhandledExceptionError: read ECONNRESET
+>>>>>>> 799ac888323b707fd8099f3751f86632489e7003
     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
 errno: "ECONNRESET"
 code: "ECONNRESET"
 syscall: "read"
 name: "unhandledExceptionError"
+<<<<<<< HEAD
+pid: 4780
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 11:11:40,346 ERROR 5360 nodejs.ClusterClientNoResponseError: client no response in 74018ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\cluster-client\lib\leader.js:77:23)
+=======
 pid: 3624
 hostname: DESKTOP-PN27GPC
 
@@ -2155,13 +2263,532 @@ hostname: DESKTOP-M4K67PD
 
 2020-07-15 16:14:33,358 ERROR 8620 nodejs.ServerNoResponseError: server 127.0.0.1:50447 no response in 39998ms, maybe the socket is end on the other side. (address: 127.0.0.1:50447)
     at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\hh\Desktop\dangdang\server\node_modules\tcp-base\lib\base.js:427:21)
+>>>>>>> 799ac888323b707fd8099f3751f86632489e7003
     at ontimeout (timers.js:425:11)
     at tryOnTimeout (timers.js:289:5)
     at listOnTimeout (timers.js:252:5)
     at Timer.processTimers (timers.js:212:10)
+<<<<<<< HEAD
+name: "ClusterClientNoResponseError"
+pid: 5360
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:25:39,189 ERROR 7356 [-/::1/-/7ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,306,"undefined")' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order (gid,total,username) values (2,306,"undefined")
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,306,\"undefined\")' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order (gid,total,username) values (2,306,\"undefined\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 7356
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:26:38,086 ERROR 6652 [-/::1/-/5ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,306,"muss1998")' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order (gid,total,username) values (2,306,"muss1998")
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,306,\"muss1998\")' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order (gid,total,username) values (2,306,\"muss1998\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 6652
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:27:34,540 ERROR 3216 [-/::1/-/7ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (null,0,"muss1998")' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order (gid,total,username) values (null,0,"muss1998")
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (null,0,\"muss1998\")' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order (gid,total,username) values (null,0,\"muss1998\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 3216
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:27:50,766 ERROR 3216 [-/::1/-/4ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,102,"muss1998")' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order (gid,total,username) values (2,102,"muss1998")
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,102,\"muss1998\")' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order (gid,total,username) values (2,102,\"muss1998\")"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 3216
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:28:38,915 ERROR 6444 [-/::1/-/13ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,102,muss1998)' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order (gid,total,username) values (2,102,muss1998)
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (gid,total,username) values (2,102,muss1998)' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order (gid,total,username) values (2,102,muss1998)"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 6444
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:30:29,869 ERROR 7052 [-/::1/-/7ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(gid,total,username) values (2,102,'muss1998')' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order(gid,total,username) values (2,102,'muss1998')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(gid,total,username) values (2,102,'muss1998')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order(gid,total,username) values (2,102,'muss1998')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 7052
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:33:03,785 ERROR 7052 [-/::1/-/7ms POST /addorder] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(gid,total,username) values (null,0,'muss1998')' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into order(gid,total,username) values (null,0,'muss1998')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(gid,total,username) values (null,0,'muss1998')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into order(gid,total,username) values (null,0,'muss1998')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 7052
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:39:20,416 ERROR 3536 [-/::1/-/7ms POST /addorder] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'gid' cannot be null
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into ordertable(gid,total,username) values (null,0,'muss1998')
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'gid' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "insert into ordertable(gid,total,username) values (null,0,'muss1998')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_NULL_ERRORError"
+pid: 3536
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:41:36,460 ERROR 6808 [-/::1/-/8ms POST /addorder] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'gid' cannot be null
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into ordertable(gid,total,username) values (null,0,'muss1998')
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'gid' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "insert into ordertable(gid,total,username) values (null,0,'muss1998')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_NULL_ERRORError"
+pid: 6808
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 12:46:19,102 ERROR 8024 [-/::1/-/251ms POST /addorder] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'gid' cannot be null
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: insert into ordertable(gid,total,username) values (null,0,'muss1998')
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'gid' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "insert into ordertable(gid,total,username) values (null,0,'muss1998')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_NULL_ERRORError"
+pid: 8024
+hostname: FH76NJO29HM8FWC
+=======
 name: "ServerNoResponseError"
 pid: 8620
 hostname: DESKTOP-M4K67PD
+<<<<<<< HEAD
+>>>>>>> 799ac888323b707fd8099f3751f86632489e7003
+
+2020-07-16 15:08:22,981 ERROR 1252 [-/::1/-/789ms POST /order] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'muss1998' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: select * from ordertable where username=muss1998
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'muss1998' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from ordertable where username=muss1998"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1252
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 15:08:36,793 ERROR 3200 [-/::1/-/32ms POST /order] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'muss1998' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: select * from ordertable where username=muss1998
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'muss1998' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from ordertable where username=muss1998"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 3200
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 15:14:47,810 ERROR 3568 [-/::1/-/43ms POST /order] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from order where gid=2' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: select goodsname,imgsrc,price, from order where gid=2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from order where gid=2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select goodsname,imgsrc,price, from order where gid=2"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 3568
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 15:15:17,893 ERROR 3568 [-/::1/-/11ms POST /order] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from order where gid=2' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: select goodsname,imgsrc,price, from order where gid=2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from order where gid=2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select goodsname,imgsrc,price, from order where gid=2"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 3568
+hostname: FH76NJO29HM8FWC
+
+2020-07-16 15:15:26,605 ERROR 7252 [-/::1/-/60ms POST /order] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from goods where gid=2' at line 1
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\app\dangdang\server\node_modules\co\index.js:54:5
+    sql: select goodsname,imgsrc,price, from goods where gid=2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from goods where gid=2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select goodsname,imgsrc,price, from goods where gid=2"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 7252
+hostname: FH76NJO29HM8FWC
+=======
 <<<<<<< HEAD
 >>>>>>> 923b9b43aef430d9e4cb01d618d438416abde0e0
 =======
@@ -3241,6 +3868,7 @@ name: "ER_DUP_ENTRYError"
 pid: 23184
 hostname: DESKTOP-PN27GPC
 >>>>>>> 9cc259bf8212d45cf4030a70030e57d2bd579d56
+>>>>>>> 86f0f7760edbc45048e56132568cfa71c7f2f04e
 
 2020-07-16 16:18:30,369 ERROR 11332 [-/::1/-/45ms GET /addDetail?gid=2] nodejs.SyntaxError: Identifier 'ctx' has already been declared
     at Object.callFn (C:\Users\hh\Desktop\dangdang\server\node_modules\egg-core\lib\utils\index.js:44:21)
@@ -3396,4 +4024,1223 @@ hostname: DESKTOP-M4K67PD
 headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
 pid: 1568
 hostname: DESKTOP-M4K67PD
+
+2020-07-16 20:09:47,363 ERROR 3748 [-/::1/-/1206ms GET /allbooks?pageNum=8num=0] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: select * from goods limit NaN,8num=0
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "select * from goods limit NaN,8num=0"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 20:10:30,428 ERROR 3748 [-/::1/-/196ms GET /allbooks?pageNum=8&num=0] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-8,8' at line 1
+    at Query.Sequence._packetToError (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: select * from goods limit -8,8
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-8,8' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods limit -8,8"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 20:10:41,807 ERROR 3748 [-/::1/-/4ms GET /allbooks?pageNum=8&num=0] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-8,8' at line 1
+    at Query.Sequence._packetToError (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:65:19)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\co\index.js:54:5
+    sql: select * from goods limit -8,8
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-8,8' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods limit -8,8"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:41:50,964 ERROR 3748 [-/::1/-/13360ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:42:15,234 ERROR 3748 [-/::1/-/10099ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:42:32,251 ERROR 3748 [-/::1/-/10029ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:45:22,946 ERROR 3748 [-/::1/-/10027ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:48:10,187 ERROR 3748 [-/::1/-/10477ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:50:21,271 ERROR 3748 [-/::1/-/10025ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:51:02,863 ERROR 3748 [-/::1/-/10010ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:51:33,496 ERROR 3748 [-/::1/-/10056ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:51:55,234 ERROR 3748 [-/::1/-/10004ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:52:32,589 ERROR 3748 [-/::1/-/10005ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:53:10,125 ERROR 3748 [-/::1/-/10049ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:53:57,896 ERROR 3748 [-/::1/-/10003ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:55:08,296 ERROR 3748 [-/::1/-/10058ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:57:09,020 ERROR 3748 [-/::1/-/10005ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 22:59:48,753 ERROR 3748 [-/::1/-/10039ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:00:19,513 ERROR 3748 [-/::1/-/10037ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:00:39,574 ERROR 3748 [-/::1/-/10060ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:01:19,124 ERROR 3748 [-/::1/-/10004ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:01:53,363 ERROR 3748 [-/::1/-/10010ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:02:40,728 ERROR 3748 [-/::1/-/10035ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:03:12,840 ERROR 3748 [-/::1/-/10022ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:03:44,267 ERROR 3748 [-/::1/-/10005ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:04:40,088 ERROR 3748 [-/::1/-/10008ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:06:10,788 ERROR 3748 [-/::1/-/10026ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:10:16,820 ERROR 3748 [-/::1/-/10016ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:10:36,949 ERROR 3748 [-/::1/-/10018ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:11:07,794 ERROR 3748 [-/::1/-/10020ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:12:07,332 ERROR 3748 [-/::1/-/10055ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:14:43,662 ERROR 3748 [-/::1/-/10004ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:15:48,552 ERROR 3748 [-/::1/-/10003ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:16:54,400 ERROR 3748 [-/::1/-/10023ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:18:00,636 ERROR 3748 [-/::1/-/10004ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:21:49,396 ERROR 3748 [-/::1/-/10005ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:22:38,249 ERROR 3748 [-/::1/-/10014ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:23:14,135 ERROR 3748 [-/::1/-/10003ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:29:55,059 ERROR 3748 [-/::1/-/10439ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-16 23:31:26,875 ERROR 3748 [-/::1/-/10005ms GET /allbooks?pageNum=8&num=1] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:449:8)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\wo\Desktop\project\dangdang\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\wo\Desktop\project\dangdang\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: select * from goods limit 0,8
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 3748
+hostname: DESKTOP-6BKTIMC
+
+2020-07-17 09:46:47,943 ERROR 220 [-/::1/-/1867ms POST /detailpl] nodejs.TypeError: Cannot read property 'uid' of undefined
+    at DetailService.detailpl (C:\Users\wo\Desktop\project\dangdang\server\app\service\detail.js:15:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 220
+hostname: DESKTOP-6BKTIMC
 

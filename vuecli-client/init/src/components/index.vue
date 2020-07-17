@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div >
     <Header></Header>
 
       <Searchbutton></Searchbutton>
@@ -10,7 +10,6 @@
     <Storeone></Storeone>
     <Onlyapply></Onlyapply>
     <Threeimg></Threeimg>
-    <Onlyapply></Onlyapply>
     <Hotauthor></Hotauthor>
      <Threeimg></Threeimg>
      <Maybelike></Maybelike>

@@ -7,8 +7,10 @@ class OrderController extends Controller {
         const {
             ctx
         } = this;
-		var result=await this.ctx.service.order.order(this.ctx.request.body)
-		ctx.body=result
+        var result = await this.ctx.service.order.order({
+            username: this.ctx.session.islogin
+        });
+        ctx.body = result
     }
 
 }

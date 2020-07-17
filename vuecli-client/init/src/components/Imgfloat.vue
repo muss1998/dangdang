@@ -24,9 +24,8 @@ export default {
     .picture{
         width: 1202px;
         height: 67px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        
+        margin-top: 16px;
+        margin-bottom: 12px;
         margin-left: 110px;
     }
 </style>

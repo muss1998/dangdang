@@ -31,7 +31,6 @@ const routes = [{
     name: 'detail',
     component: () => import('../views/detail/Detail.vue')
   },
-  
   {
     path: '/my',
     name: 'My',
@@ -41,6 +40,16 @@ const routes = [{
     path: '/car',
     name: 'Car',
     component: () => import('../views/car/Car.vue')
+  },
+  {
+    path: '/order',
+    name: 'Order',
+    component: () => import('../views/order/Order.vue')
+  },
+  {
+    path: '/searchpage',
+    name: 'Searchpage',
+    component: () => import('../views/searchpage/Searchpage.vue')
   }
 ]
 
@@ -51,13 +60,13 @@ const router = new VueRouter({
   routes
 })
 router.beforeEach((to, from, next) => {
-  if (to.path == "/my" || to.path == "/car") {
+  if (to.path == "/my" || to.path == "/car"|| to.path == "/order") {
     let flag = window.localStorage.getItem("islogin");
     if (flag) {
       next()
     } else {
       alert("请先登录")
-      next("/login")
+      next(`/login?from=my`)
     }
   } else {
     next()
